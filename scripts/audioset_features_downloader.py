@@ -1,0 +1,2 @@
+# TODO: Script to download the audioset_v1_embeddings folder from https://research.google.com/audioset/download.html
+# For now, go to http://storage.googleapis.com/us_audioset/youtube_corpus/v1/features/features.tar.gz and download, then move to data/ for video_processing/audio_analyzer.ipynb functions to work properly
