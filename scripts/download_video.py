@@ -8,7 +8,7 @@ from video_processing.video_extractor import extract_frames_per_second
 
 # Config
 URL_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "links.txt"))
-DATA_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dataa"))
+DATA_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data"))
 FILENAME = "video.mp4"
 MAX_PARALLEL_DOWNLOADS = 3
 

@@ -3,6 +3,7 @@ settings.json
 *.pyc
 __pycache__/
 data/
+cache/
 checkpoints/
 logs/
 
