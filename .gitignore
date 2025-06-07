@@ -10,3 +10,7 @@ logs/
 .env*
 test.pyc
 .env.vision-461919-df07d38cd23d.json
+venv/
+yolo_dataset/*
+analysis_resultss/*
+analysis_resultss\*

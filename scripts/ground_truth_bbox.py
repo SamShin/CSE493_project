@@ -146,13 +146,12 @@ def analyze_frame_with_openai(image_path, detail="low"):
     - age: estimated age as a number
     - age_range: format as "X-Y" (e.g., "25-35", "0-2")
     - gender: "male", "female", or "unknown"
-    - emotion: primary emotion (happy, sad, neutral, calm, excited, angry, etc.)
-    - bbox: A bounding box specifically for the **face** of the person, as a list of four normalized floating-point numbers (e.g., "bbox": [0.15, 0.25, 0.30, 0.40])]
+    - emotion: primary emotion (happy, sad, neutral, calm, e xcited, angry, etc.)
 
     Return ONLY a JSON array of people objects. If no people are present, return an empty array [].
-    Example: [{"type": "adult", "age": 30, "age_range": "25-35", "gender": "female", "emotion": "happy", "bbox": [0.1, 0.2, 0.3, 0.4]}]"""
+    Example: [{"type": "adult", "age": 30, "age_range": "25-35", "gender": "female", "emotion": "happy"}]"""
 
-
+    # print(f"    [OpenAI] Sending request for '{os.path.basename(image_path)}'...") # Less verbose
     try:
         response = azure_client.chat.completions.create(
             model=AZURE_OPENAI_DEPLOYMENT,

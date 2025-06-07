@@ -2,8 +2,8 @@ import os
 import json
 
 # --- Configuration ---
-INPUT_DIR = "analysis_results"  # Directory containing individual .json analysis files
-FINAL_FRAMES_FILE = "output_frames.jsonl" # Final output with one frame per line
+INPUT_DIR = "analysis_resultss"  # Directory containing individual .json analysis files
+FINAL_FRAMES_FILE = "output_frames_bbox.jsonl" # Final output with one frame per line
 
 # --- Helper Function to process a single video object ---
 def process_video_object_to_frame_json_strings(video_data):

@@ -121,7 +121,7 @@ def analyze_frame_with_openai(image_path, detail="low"):
     - age: estimated age as a number
     - age_range: format as "X-Y" (e.g., "25-35", "0-2")
     - gender: "male", "female", or "unknown"
-    - emotion: primary emotion (happy, sad, neutral, calm, excited, angry, etc.)
+    - emotion: primary emotion (happy, sad, neutral, calm, e xcited, angry, etc.)
 
     Return ONLY a JSON array of people objects. If no people are present, return an empty array [].
     Example: [{"type": "adult", "age": 30, "age_range": "25-35", "gender": "female", "emotion": "happy"}]"""
