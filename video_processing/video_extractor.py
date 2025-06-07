@@ -1,9 +1,11 @@
-import os
-import cv2
 import math
+import os
+from typing import List, Literal, Optional, Tuple, Union
+
+import cv2
 import numpy as np
 from PIL import Image
-from typing import List, Tuple, Literal, Union, Optional
+
 
 def resize_with_padding(frame, target_size=(1280, 720), color=(0, 0, 0)):
     original_h, original_w = frame.shape[:2]

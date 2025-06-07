@@ -1,10 +1,11 @@
-import boto3
-import os
-import json
 import base64
-from openai import AzureOpenAI
-import dotenv
 import concurrent.futures
+import json
+import os
+
+import boto3
+import dotenv
+from openai import AzureOpenAI
 
 # --- Determine Project Root and Paths ---
 # Get the directory of the currently running script (e.g., Project_Root/Scripts)
@@ -36,11 +37,12 @@ AZURE_OPENAI_DEPLOYMENT = str(os.getenv("AZURE_DEPLOYMENT_NAME"))
 AZURE_API_VERSION = str(os.getenv("AZURE_API_VERSION", "2024-02-01"))
 
 # Directory Configuration (now relative to PROJECT_ROOT_DIR)
-DATA_DIRECTORY = os.path.join(PROJECT_ROOT_DIR, "data")
-OUTPUT_DIRECTORY = os.path.join(PROJECT_ROOT_DIR, "analysis_results")
+DATA_DIRECTORY = os.path.join(PROJECT_ROOT_DIR, "videos")
+OUTPUT_DIRECTORY = os.path.join(PROJECT_ROOT_DIR, "data\\per_video_analysis")
 
 # Image Analysis Configuration
 IMAGE_DETAIL = "high"  # For OpenAI vision
+OPENAI_MAX_TOKENS = 1000 # Increased for potentially larger JSON with bboxes
 
 # Parallelism Configuration
 MAX_WORKERS_PER_VIDEO = (
@@ -105,7 +107,6 @@ def analyze_frame_with_openai(image_path, detail="low"):
             f"    [OpenAI] Client not initialized. Skipping for {os.path.basename(image_path)}"
         )
         return []
-    # print(f"    [OpenAI] Attempting to analyze: {image_path}") # Less verbose for parallel
     try:
         with open(image_path, "rb") as image_file:
             base64_image = base64.b64encode(image_file.read()).decode("utf-8")
@@ -126,7 +127,6 @@ def analyze_frame_with_openai(image_path, detail="low"):
     Return ONLY a JSON array of people objects. If no people are present, return an empty array [].
     Example: [{"type": "adult", "age": 30, "age_range": "25-35", "gender": "female", "emotion": "happy"}]"""
 
-    # print(f"    [OpenAI] Sending request for '{os.path.basename(image_path)}'...") # Less verbose
     try:
         response = azure_client.chat.completions.create(
             model=AZURE_OPENAI_DEPLOYMENT,
@@ -145,8 +145,8 @@ def analyze_frame_with_openai(image_path, detail="low"):
                     ],
                 } # type: ignore
             ],
-            max_tokens=300,  # Max tokens for the *output/completion*
-            temperature=0.0,  # For more deterministic output
+            max_tokens=OPENAI_MAX_TOKENS,
+            temperature=0.0,
         )
         raw_response_content = response.choices[0].message.content
     except Exception as e:
@@ -155,12 +155,17 @@ def analyze_frame_with_openai(image_path, detail="low"):
 
     people = []
     try:
-        # Ensure raw_response_content is not None before trying to load
         if raw_response_content is None:
             print(f"    [OpenAI] Error: Received None response content for '{os.path.basename(image_path)}'")
             return []
         parsed_data = json.loads(raw_response_content) # type: ignore
         if isinstance(parsed_data, list):
+            # Basic validation for bbox if present
+            for person_obj in parsed_data:
+                if "bbox" in person_obj and person_obj["bbox"] is not None:
+                    if not (isinstance(person_obj["bbox"], list) and len(person_obj["bbox"]) == 4 and all(isinstance(n, (int, float)) for n in person_obj["bbox"])):
+                        print(f"    [OpenAI] Warning: Malformed bbox for a person in '{os.path.basename(image_path)}': {person_obj['bbox']}. Setting to null.")
+                        person_obj["bbox"] = None
             people = parsed_data
         else:
             print(
@@ -183,7 +188,6 @@ def analyze_frame_with_rekognition(image_path, min_confidence=75.0):
             f"    [Rekognition] Client not initialized. Skipping for {os.path.basename(image_path)}"
         )
         return []
-    # print(f"    [Rekognition] Attempting to detect labels for: {image_path}") # Less verbose
     try:
         with open(image_path, "rb") as image_file:
             image_bytes = image_file.read()
@@ -194,7 +198,6 @@ def analyze_frame_with_rekognition(image_path, min_confidence=75.0):
         print(f"    [Rekognition] Error reading image {image_path}: {e}")
         return []
 
-    # print(f"    [Rekognition] Sending request for '{os.path.basename(image_path)}'...") # Less verbose
     try:
         response = rekognition_client.detect_labels(
             Image={"Bytes": image_bytes}, MaxLabels=20, MinConfidence=min_confidence
@@ -203,32 +206,59 @@ def analyze_frame_with_rekognition(image_path, min_confidence=75.0):
         print(f"    [Rekognition] API Error for '{os.path.basename(image_path)}': {e}")
         return []
 
-    object_names = []
+    detected_objects = []
     if "Labels" in response:
         for label in response["Labels"]:
-            object_names.append(label["Name"])
+            # Process instances for bounding boxes
+            if label.get("Instances"):
+                for instance in label["Instances"]:
+                    if "BoundingBox" in instance and "Confidence" in instance:
+                        # Check if instance confidence meets the general min_confidence
+                        # (Rekognition API applies MinConfidence to labels, not always to instances directly in older versions, but good practice)
+                        if instance["Confidence"] >= min_confidence:
+                            bbox_rek = instance["BoundingBox"]
+                            detected_objects.append({
+                                "Name": label["Name"],
+                                "Confidence": instance["Confidence"],
+                                "bbox": [ # Standardized format [x, y, w, h] (Left, Top, Width, Height)
+                                    bbox_rek.get("Left", 0.0),
+                                    bbox_rek.get("Top", 0.0),
+                                    bbox_rek.get("Width", 0.0),
+                                    bbox_rek.get("Height", 0.0)
+                                ],
+                                "Parents": [p.get("Name") for p in label.get("Parents", []) if p.get("Name")]
+                            })
+            # Optionally, include labels without instances if needed (e.g., general scene labels)
+            # else:
+            #     if label["Confidence"] >= min_confidence: # Check top-level label confidence
+            #         detected_objects.append({
+            #             "Name": label["Name"],
+            #             "Confidence": label["Confidence"],
+            #             "bbox": None, # No specific bounding box for this instance-less label
+            #             "Parents": [p.get("Name") for p in label.get("Parents", []) if p.get("Name")]
+            #         })
     else:
         print(
             f"    [Rekognition] No 'Labels' in response for '{os.path.basename(image_path)}'."
         )
-    return object_names
+    return detected_objects
 
 
 def _process_single_frame_task(frame_idx, image_path, image_file_name):
     """Helper function to process a single frame using both services."""
     print(f"    Starting analysis for frame {frame_idx}: {image_file_name}")
     people_data = analyze_frame_with_openai(image_path, detail=IMAGE_DETAIL)
-    object_data = analyze_frame_with_rekognition(
+    object_details_data = analyze_frame_with_rekognition(
         image_path, min_confidence=REKOGNITION_MIN_CONFIDENCE
     )
     print(
-        f"    Finished analysis for frame {frame_idx}: {image_file_name}. OpenAI: {len(people_data)} people, Rekognition: {len(object_data)} objects."
+        f"    Finished analysis for frame {frame_idx}: {image_file_name}. OpenAI: {len(people_data)} people, Rekognition: {len(object_details_data)} objects."
     )
     return {
         "frame": frame_idx,
         "timestamp": float(frame_idx),  # Assuming 1fps
-        "people": people_data,
-        "objects_rekognition": object_data,
+        "people": people_data, # Will contain bboxes from OpenAI
+        "detected_objects": object_details_data, # Will contain bboxes from Rekognition
     }
 
 
@@ -263,7 +293,6 @@ def process_video(video_folder_path):
         print(f"Found {total_frames} frames to process in '{frames_dir}'.")
 
     result_frames_data = []
-    # Using ThreadPoolExecutor for I/O bound tasks (API calls)
     with concurrent.futures.ThreadPoolExecutor(
         max_workers=MAX_WORKERS_PER_VIDEO
     ) as executor:
@@ -283,32 +312,28 @@ def process_video(video_folder_path):
                 result_frames_data.append(frame_data)
             except Exception as exc:
                 print(f"    Frame {frame_idx} generated an exception: {exc}")
-                # Optionally add a placeholder or error entry for this frame
                 result_frames_data.append(
                     {
                         "frame": frame_idx,
                         "timestamp": float(frame_idx),
                         "people": [],
-                        "objects_rekognition": [],
+                        "detected_objects": [], # Updated key name
                         "error": str(exc),
                     }
                 )
 
-    # Sort frames by index, as they might complete out of order
     result_frames_data.sort(key=lambda x: x["frame"])
 
-    # Calculate summary statistics from the collected frame data
     all_people_types_in_video = set()
     max_people_in_any_frame = 0
     for frame_data in result_frames_data:
-        # Ensure 'people' key exists and is a list, even if there was an error processing the frame
         people_in_frame = frame_data.get("people", [])
         if isinstance(people_in_frame, list):
             if len(people_in_frame) > max_people_in_any_frame:
                 max_people_in_any_frame = len(people_in_frame)
             for person in people_in_frame:
                 all_people_types_in_video.add(person.get("type", "unknown"))
-        else:  # Should not happen if _process_single_frame_task returns correctly
+        else:
             print(
                 f"Warning: 'people' data for frame {frame_data.get('frame')} is not a list: {people_in_frame}"
             )
@@ -318,10 +343,10 @@ def process_video(video_folder_path):
         "total_frames": total_frames,
         "duration_seconds": float(total_frames),
         "summary": {
-            "total_people": max_people_in_any_frame,  # Based on OpenAI people
+            "total_people": max_people_in_any_frame,
             "people_types": sorted(
                 list(all_people_types_in_video)
-            ),  # Based on OpenAI people
+            ),
         },
         "frames": result_frames_data,
     }
@@ -407,7 +432,6 @@ def main():
 
     for video_path in video_paths_to_process:
         video_name_out = os.path.basename(video_path)
-        # Construct the expected output file path
         expected_output_file = os.path.join(
             OUTPUT_DIRECTORY, f"{video_name_out}_analysis.json"
         )
@@ -417,9 +441,8 @@ def main():
                 f"\nSkipping video '{video_name_out}': Analysis file '{expected_output_file}' already exists."
             )
             skipped_count += 1
-            continue  # Move to the next video
+            continue
 
-        # If file doesn't exist, proceed with processing
         analysis_result = process_video(video_path)
         if analysis_result:
             try:
@@ -448,7 +471,6 @@ def main():
 
 
 if __name__ == "__main__":
-    # Initial check for Azure .env variables
     missing_vars = []
     if not AZURE_OPENAI_ENDPOINT or AZURE_OPENAI_ENDPOINT == "None":
         missing_vars.append("AZURE_OPENAI_ENDPOINT")
@@ -476,7 +498,7 @@ if __name__ == "__main__":
             + "-" * 70
         )
         print("Script will exit due to missing configuration.\n" + "=" * 70)
-    elif not azure_client:  # Check if client init failed for other reasons
+    elif not azure_client:
         print(
             "Azure OpenAI client failed to initialize despite .env variables appearing set. Check client init logs. Exiting."
         )
