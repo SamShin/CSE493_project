@@ -9,8 +9,8 @@ import yaml
 # Paths are now relative to the project root, assuming the script is in a 'scripts' subdirectory.
 project_root = Path(__file__).parent.parent # Goes up one level from 'scripts' to project root
 
-jsonl_file_path = project_root / 'output_frames_bbox.jsonl'
-base_data_dir = project_root / 'data'           # Base directory containing video_XXX folders
+jsonl_file_path = project_root / 'data\\per_frame_analysis.jsonl'
+base_data_dir = project_root / 'videos'           # Base directory containing video_XXX folders
 dataset_root = project_root / 'yolo_dataset'    # Where the YOLO formatted dataset will be created
 image_extension = '.jpg'                        # Or .png, or whatever your images are
 
