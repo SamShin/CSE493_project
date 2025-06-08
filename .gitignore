@@ -3,6 +3,17 @@ venv
 settings.json
 *.pyc
 __pycache__/
+cache/
+logs/
+videos/
+yolo_dataset/*
+.env*
+test.pyc
+.env.vision-461919-df07d38cd23d.json
+venv/
+annotated_videos/
 checkpoints/
 logs/
 data/dl_audios
+data/audioset_v1_embeddings
+data/test
