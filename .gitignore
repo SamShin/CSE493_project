@@ -3,7 +3,7 @@ settings.json
 *.pyc
 __pycache__/
 cache/
-checkpoints/
+#checkpoints/
 logs/
 videos/
 yolo_dataset/*
