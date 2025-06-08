@@ -1,9 +1,9 @@
 .venv/
+venv
 settings.json
 *.pyc
 __pycache__/
 cache/
-#checkpoints/
 logs/
 videos/
 yolo_dataset/*
@@ -12,3 +12,8 @@ test.pyc
 .env.vision-461919-df07d38cd23d.json
 venv/
 annotated_videos/
+checkpoints/
+logs/
+data/dl_audios
+data/audioset_v1_embeddings
+data/test
