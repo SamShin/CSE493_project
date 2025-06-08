@@ -17,8 +17,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.94595336914062,
+          "bbox": [
+            0.44767436385154724,
+            0.350812703371048,
+            0.05096616595983505,
+            0.11712256819009781
+          ]
         }
       ],
       "detected_objects": [
@@ -56,8 +63,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.98961639404297,
+          "bbox": [
+            0.45543283224105835,
+            0.38486793637275696,
+            0.05281505733728409,
+            0.1206987202167511
+          ]
         }
       ],
       "detected_objects": [
@@ -106,8 +120,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.9763412475586,
+          "bbox": [
+            0.49606066942214966,
+            0.2810157239437103,
+            0.05604829639196396,
+            0.1287364512681961
+          ]
         }
       ],
       "detected_objects": [
@@ -145,8 +166,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.97745513916016,
+          "bbox": [
+            0.509268045425415,
+            0.2850439250469208,
+            0.05278816074132919,
+            0.12843823432922363
+          ]
         }
       ],
       "detected_objects": [
@@ -184,8 +212,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.97911834716797,
+          "bbox": [
+            0.4807451367378235,
+            0.3005257844924927,
+            0.05439920350909233,
+            0.12719260156154633
+          ]
         }
       ],
       "detected_objects": [
@@ -223,8 +258,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.98982238769531,
+          "bbox": [
+            0.46961432695388794,
+            0.2912227213382721,
+            0.05442943423986435,
+            0.12847670912742615
+          ]
         }
       ],
       "detected_objects": [
@@ -262,8 +304,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.97953796386719,
+          "bbox": [
+            0.4705355167388916,
+            0.2727758586406708,
+            0.055220890790224075,
+            0.13386112451553345
+          ]
         }
       ],
       "detected_objects": [
@@ -296,15 +345,7 @@
     {
       "frame": 7,
       "timestamp": 7.0,
-      "people": [
-        {
-          "type": "baby",
-          "age": 1,
-          "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
-        }
-      ],
+      "people": [],
       "detected_objects": [
         {
           "Name": "Person",
@@ -340,8 +381,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.9034423828125,
+          "bbox": [
+            0.4691894054412842,
+            0.28327539563179016,
+            0.07942190021276474,
+            0.15701234340667725
+          ]
         }
       ],
       "detected_objects": [
@@ -379,8 +427,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.99669647216797,
+          "bbox": [
+            0.39897221326828003,
+            0.2146451324224472,
+            0.11554117500782013,
+            0.2511116862297058
+          ]
         }
       ],
       "detected_objects": [
@@ -418,8 +473,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.99544525146484,
+          "bbox": [
+            0.38991475105285645,
+            0.07265368849039078,
+            0.16041794419288635,
+            0.3491206169128418
+          ]
         }
       ],
       "detected_objects": [
@@ -457,8 +519,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.99866485595703,
+          "bbox": [
+            0.4800031781196594,
+            0.1964065134525299,
+            0.1411823332309723,
+            0.300606369972229
+          ]
         }
       ],
       "detected_objects": [
@@ -496,8 +565,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 99.99771118164062,
+          "bbox": [
+            0.5191797614097595,
+            0.22092688083648682,
+            0.08844614028930664,
+            0.20641878247261047
+          ]
         }
       ],
       "detected_objects": [

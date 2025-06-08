@@ -17,8 +17,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "calm",
+          "confidence": 99.99961853027344,
+          "bbox": [
+            0.4109501242637634,
+            0.1566782146692276,
+            0.1548301726579666,
+            0.31334272027015686
+          ]
         }
       ],
       "detected_objects": [
@@ -69,8 +76,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "calm",
+          "confidence": 99.9985580444336,
+          "bbox": [
+            0.41250982880592346,
+            0.033607568591833115,
+            0.1464579552412033,
+            0.33281952142715454
+          ]
         }
       ],
       "detected_objects": [
@@ -108,8 +122,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99967956542969,
+          "bbox": [
+            0.386308878660202,
+            0.26292335987091064,
+            0.15590302646160126,
+            0.286513090133667
+          ]
         }
       ],
       "detected_objects": [
@@ -160,8 +181,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99930572509766,
+          "bbox": [
+            0.4466214179992676,
+            0.0815371423959732,
+            0.14450474083423615,
+            0.3363143801689148
+          ]
         }
       ],
       "detected_objects": [
@@ -212,8 +240,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99894714355469,
+          "bbox": [
+            0.3945428729057312,
+            0.17176750302314758,
+            0.16030749678611755,
+            0.3026556968688965
+          ]
         }
       ],
       "detected_objects": [
@@ -262,10 +297,17 @@
       "people": [
         {
           "type": "baby",
-          "age": 1,
-          "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "age": 2,
+          "age_range": "0-4",
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99885559082031,
+          "bbox": [
+            0.4110809862613678,
+            0.13376396894454956,
+            0.1459616720676422,
+            0.29914557933807373
+          ]
         }
       ],
       "detected_objects": [
@@ -316,8 +358,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "calm"
+          "gender": "male",
+          "emotion": "calm",
+          "confidence": 99.9990005493164,
+          "bbox": [
+            0.3710835576057434,
+            0.17383643984794617,
+            0.14856144785881042,
+            0.2999476194381714
+          ]
         }
       ],
       "detected_objects": [
@@ -368,8 +417,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "surprised",
+          "confidence": 99.99976348876953,
+          "bbox": [
+            0.367918461561203,
+            0.12894077599048615,
+            0.15163204073905945,
+            0.34131255745887756
+          ]
         }
       ],
       "detected_objects": [
@@ -420,8 +476,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99870300292969,
+          "bbox": [
+            0.3885011076927185,
+            0.029190000146627426,
+            0.1517823189496994,
+            0.3539172410964966
+          ]
         }
       ],
       "detected_objects": [
@@ -472,8 +535,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "calm",
+          "confidence": 99.99909210205078,
+          "bbox": [
+            0.3930206894874573,
+            0.09010633081197739,
+            0.14483051002025604,
+            0.33563968539237976
+          ]
         }
       ],
       "detected_objects": [
@@ -524,8 +594,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99970245361328,
+          "bbox": [
+            0.39131006598472595,
+            0.2073940634727478,
+            0.14973297715187073,
+            0.30601009726524353
+          ]
         }
       ],
       "detected_objects": [
@@ -576,8 +653,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "calm",
+          "confidence": 99.99919128417969,
+          "bbox": [
+            0.40039294958114624,
+            0.2407221496105194,
+            0.1533966064453125,
+            0.3000362813472748
+          ]
         }
       ],
       "detected_objects": [
@@ -628,8 +712,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "calm"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99877166748047,
+          "bbox": [
+            0.4630012512207031,
+            0.12585274875164032,
+            0.13425283133983612,
+            0.31326794624328613
+          ]
         }
       ],
       "detected_objects": [
@@ -680,8 +771,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "male",
+          "emotion": "calm",
+          "confidence": 99.9995346069336,
+          "bbox": [
+            0.413729190826416,
+            0.18274511396884918,
+            0.1301957070827484,
+            0.28923338651657104
+          ]
         }
       ],
       "detected_objects": [
@@ -732,8 +830,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99739074707031,
+          "bbox": [
+            0.3774462342262268,
+            0.22683674097061157,
+            0.1528332680463791,
+            0.30471673607826233
+          ]
         }
       ],
       "detected_objects": [
@@ -784,8 +889,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99805450439453,
+          "bbox": [
+            0.39954110980033875,
+            0.23113034665584564,
+            0.15560424327850342,
+            0.29752039909362793
+          ]
         }
       ],
       "detected_objects": [
@@ -836,8 +948,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "calm"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99800872802734,
+          "bbox": [
+            0.4028695225715637,
+            0.18365465104579926,
+            0.1547558754682541,
+            0.30505380034446716
+          ]
         }
       ],
       "detected_objects": [
@@ -888,8 +1007,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99624633789062,
+          "bbox": [
+            0.4146474003791809,
+            0.21451394259929657,
+            0.1545189917087555,
+            0.2765968441963196
+          ]
         }
       ],
       "detected_objects": [
@@ -940,8 +1066,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "calm"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99951171875,
+          "bbox": [
+            0.4257887005805969,
+            0.19082140922546387,
+            0.14590224623680115,
+            0.2841227948665619
+          ]
         }
       ],
       "detected_objects": [
@@ -992,8 +1125,15 @@
           "type": "baby",
           "age": 1,
           "age_range": "0-2",
-          "gender": "unknown",
-          "emotion": "neutral"
+          "gender": "female",
+          "emotion": "calm",
+          "confidence": 99.99961853027344,
+          "bbox": [
+            0.4179949164390564,
+            0.1901228129863739,
+            0.1453332006931305,
+            0.2843736410140991
+          ]
         }
       ],
       "detected_objects": [
