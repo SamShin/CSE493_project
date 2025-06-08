@@ -5,9 +5,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 # --- Constants ---
 ROOT_DIR = Path(__file__).parent.parent
-DATA_DIR = ROOT_DIR / "data/test_per_video_analysis"
+DATA_DIR = ROOT_DIR / "data/per_video_analysis"
 VIDEO_DIR = ROOT_DIR / "videos"
-OUTPUT_DIR = ROOT_DIR / "annotated"
+OUTPUT_DIR = ROOT_DIR / "annotated_videos"
 
 # Load default font
 try:
