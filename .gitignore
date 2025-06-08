@@ -11,4 +11,4 @@ yolo_dataset/*
 test.pyc
 .env.vision-461919-df07d38cd23d.json
 venv/
-annotated/
+annotated_videos/
