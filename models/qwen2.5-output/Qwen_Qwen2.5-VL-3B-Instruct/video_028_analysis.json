@@ -1,0 +1,449 @@
+{
+  "video_name": "video_028.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "total_frames": 12,
+  "duration_seconds": 12.0,
+  "summary": {
+    "total_people_detections": 12,
+    "people_types": [
+      "baby",
+      "child"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 10.96,
+    "total_generated_tokens": 1748,
+    "frames_per_second": 1.09,
+    "tokens_per_second": 159.44
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.36,
+      "cpu_percent": 75.6,
+      "memory_mb": 1090.39
+    },
+    {
+      "timestamp_sec": 4.36,
+      "cpu_percent": 69.9,
+      "memory_mb": 1129.13
+    },
+    {
+      "timestamp_sec": 6.36,
+      "cpu_percent": 34.0,
+      "memory_mb": 1279.56
+    },
+    {
+      "timestamp_sec": 8.37,
+      "cpu_percent": 1.0,
+      "memory_mb": 1279.56
+    },
+    {
+      "timestamp_sec": 10.37,
+      "cpu_percent": 1.5,
+      "memory_mb": 1279.56
+    },
+    {
+      "timestamp_sec": 12.37,
+      "cpu_percent": 0.0,
+      "memory_mb": 1279.56
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.225,
+            0.31796875,
+            0.7847222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.225,
+            0.31796875,
+            0.7847222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.18333333333333332,
+            0.31875,
+            0.8263888888888888
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "food",
+          "Confidence": 0.8,
+          "bbox": [
+            0.42421875,
+            0.5236111111111111,
+            0.046875,
+            0.05694444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.19027777777777777,
+            0.31796875,
+            0.8194444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.19027777777777777,
+            0.31796875,
+            0.8194444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 90.0,
+          "bbox": [
+            0.34296875,
+            0.18611111111111112,
+            0.31875,
+            0.8236111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 90.0,
+          "bbox": [
+            0.34296875,
+            0.18611111111111112,
+            0.31875,
+            0.8236111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.20833333333333334,
+            0.31796875,
+            0.8013888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34375,
+            0.4861111111111111,
+            0.0953125,
+            0.24305555555555555
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.34609375,
+            0.2125,
+            0.315625,
+            0.7972222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34609375,
+            0.4888888888888889,
+            0.09296875,
+            0.3125
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.3453125,
+            0.225,
+            0.31640625,
+            0.7847222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.95,
+          "bbox": [
+            0.3453125,
+            0.225,
+            0.31640625,
+            0.7847222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34453125,
+            0.2569444444444444,
+            0.3171875,
+            0.7527777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "hair",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34453125,
+            0.2569444444444444,
+            0.3171875,
+            0.7527777777777778
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.21666666666666667,
+            0.3171875,
+            0.7930555555555555
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "door",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.3171875,
+            1.0097222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.1388888888888889,
+            0.3171875,
+            0.8708333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.1388888888888889,
+            0.3171875,
+            0.8708333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.19444444444444445,
+            0.31875,
+            0.8152777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "hair",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.19444444444444445,
+            0.31875,
+            0.8152777777777778
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.14305555555555555,
+            0.31484375,
+            0.8666666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "shirt",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.6416666666666667,
+            0.31484375,
+            0.3680555555555556
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    }
+  ]
+}

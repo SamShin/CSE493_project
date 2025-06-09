@@ -1,0 +1,647 @@
+{
+  "video_name": "video_029.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-32B-Instruct",
+  "total_frames": 10,
+  "duration_seconds": 10.0,
+  "summary": {
+    "total_people_detections": 10,
+    "people_types": [
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 27.8,
+    "total_generated_tokens": 2330,
+    "frames_per_second": 0.36,
+    "tokens_per_second": 83.81
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.29,
+      "cpu_percent": 82.5,
+      "memory_mb": 1072.91
+    },
+    {
+      "timestamp_sec": 4.3,
+      "cpu_percent": 56.9,
+      "memory_mb": 1098.12
+    },
+    {
+      "timestamp_sec": 6.3,
+      "cpu_percent": 41.0,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 8.3,
+      "cpu_percent": 0.0,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 10.3,
+      "cpu_percent": 0.0,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 12.31,
+      "cpu_percent": 0.5,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 14.31,
+      "cpu_percent": 0.0,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 16.31,
+      "cpu_percent": 0.5,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 18.31,
+      "cpu_percent": 0.5,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 20.32,
+      "cpu_percent": 0.5,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 22.32,
+      "cpu_percent": 0.0,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 24.32,
+      "cpu_percent": 0.0,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 26.32,
+      "cpu_percent": 0.5,
+      "memory_mb": 1205.16
+    },
+    {
+      "timestamp_sec": 28.32,
+      "cpu_percent": 0.0,
+      "memory_mb": 1205.16
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34453125,
+            0.03194444444444444,
+            0.14765625,
+            0.32222222222222224
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.47890625,
+            0.2847222222222222,
+            0.18125,
+            0.30694444444444446
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.3171875,
+            0.1388888888888889
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.03333333333333333,
+            0.15390625,
+            0.3236111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.4859375,
+            0.2847222222222222,
+            0.175,
+            0.30694444444444446
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.4984375,
+            0.0,
+            0.1625,
+            0.14166666666666666
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.11796875,
+            0.06944444444444445
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.05,
+            0.19921875,
+            0.3111111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.48984375,
+            0.2916666666666667,
+            0.17109375,
+            0.30416666666666664
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.06015625,
+            0.08333333333333333
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.4296875,
+            0.0,
+            0.11484375,
+            0.11666666666666667
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.54453125,
+            0.0,
+            0.11640625,
+            0.14583333333333334
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34453125,
+            0.05555555555555555,
+            0.20859375,
+            0.30694444444444446
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.54375,
+            0.07222222222222222,
+            0.11796875,
+            0.4666666666666667
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.3421875,
+            0.0,
+            0.31953125,
+            0.14583333333333334
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.05277777777777778,
+            0.184375,
+            0.31527777777777777
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.5359375,
+            0.06944444444444445,
+            0.125,
+            0.46944444444444444
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.3421875,
+            0.0,
+            0.31875,
+            0.14722222222222223
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34453125,
+            0.06111111111111111,
+            0.165625,
+            0.31666666666666665
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.5125,
+            0.11666666666666667,
+            0.1484375,
+            0.4513888888888889
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.36171875,
+            0.0,
+            0.29921875,
+            0.12083333333333333
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.06805555555555555,
+            0.16015625,
+            0.3111111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.49609375,
+            0.1388888888888889,
+            0.16484375,
+            0.42777777777777776
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.3171875,
+            0.15833333333333333
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.07222222222222222,
+            0.1671875,
+            0.3138888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.4984375,
+            0.13333333333333333,
+            0.1625,
+            0.4388888888888889
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.18828125,
+            0.1638888888888889
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.521875,
+            0.0,
+            0.1390625,
+            0.16666666666666666
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3421875,
+            0.08055555555555556,
+            0.1578125,
+            0.3125
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.48671875,
+            0.08611111111111111,
+            0.17421875,
+            0.4861111111111111
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.365625,
+            0.0,
+            0.2953125,
+            0.17222222222222222
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.09305555555555556,
+            0.14375,
+            0.3111111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dog",
+          "Confidence": 98.0,
+          "bbox": [
+            0.51171875,
+            0.08472222222222223,
+            0.15,
+            0.5069444444444444
+          ],
+          "Parents": [
+            "Animal",
+            "Mammal"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 90.0,
+          "bbox": [
+            0.365625,
+            0.0,
+            0.13828125,
+            0.18472222222222223
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        },
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.50390625,
+            0.0,
+            0.1578125,
+            0.16666666666666666
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    }
+  ]
+}

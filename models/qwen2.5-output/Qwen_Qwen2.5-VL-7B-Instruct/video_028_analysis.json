@@ -1,0 +1,299 @@
+{
+  "video_name": "video_028.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "total_frames": 12,
+  "duration_seconds": 12.0,
+  "summary": {
+    "total_people_detections": 12,
+    "people_types": [
+      "child"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 9.37,
+    "total_generated_tokens": 1166,
+    "frames_per_second": 1.28,
+    "tokens_per_second": 124.44
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.17,
+      "cpu_percent": 83.7,
+      "memory_mb": 1093.55
+    },
+    {
+      "timestamp_sec": 4.18,
+      "cpu_percent": 57.5,
+      "memory_mb": 1088.32
+    },
+    {
+      "timestamp_sec": 6.18,
+      "cpu_percent": 57.5,
+      "memory_mb": 1296.49
+    },
+    {
+      "timestamp_sec": 8.18,
+      "cpu_percent": 0.5,
+      "memory_mb": 1296.49
+    },
+    {
+      "timestamp_sec": 10.18,
+      "cpu_percent": 1.0,
+      "memory_mb": 1296.49
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3421875,
+            0.225,
+            0.3203125,
+            0.7861111111111111
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.18055555555555555,
+            0.31875,
+            0.8305555555555556
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.19027777777777777,
+            0.31875,
+            0.8208333333333333
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.3421875,
+            0.18333333333333332,
+            0.31953125,
+            0.8277777777777777
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.20694444444444443,
+            0.31875,
+            0.8041666666666667
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.21388888888888888,
+            0.31875,
+            0.7972222222222223
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "surprised",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.2222222222222222,
+            0.31796875,
+            0.7888888888888889
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.275,
+            0.31796875,
+            0.7361111111111112
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.18333333333333332,
+            0.31875,
+            0.8277777777777777
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.16111111111111112,
+            0.31640625,
+            0.85
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.19583333333333333,
+            0.31796875,
+            0.8152777777777778
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.1388888888888889,
+            0.31953125,
+            0.8722222222222222
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 11,
+      "timestamp": 11.0
+    }
+  ]
+}

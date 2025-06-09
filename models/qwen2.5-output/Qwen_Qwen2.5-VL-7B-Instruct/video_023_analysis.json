@@ -1,0 +1,394 @@
+{
+  "video_name": "video_023.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "total_frames": 9,
+  "duration_seconds": 9.0,
+  "summary": {
+    "total_people_detections": 15,
+    "people_types": [
+      "adult",
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 14.27,
+    "total_generated_tokens": 1579,
+    "frames_per_second": 0.63,
+    "tokens_per_second": 110.66
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.25,
+      "cpu_percent": 77.8,
+      "memory_mb": 1077.09
+    },
+    {
+      "timestamp_sec": 4.25,
+      "cpu_percent": 70.9,
+      "memory_mb": 1116.83
+    },
+    {
+      "timestamp_sec": 6.26,
+      "cpu_percent": 24.0,
+      "memory_mb": 1208.63
+    },
+    {
+      "timestamp_sec": 8.26,
+      "cpu_percent": 0.5,
+      "memory_mb": 1208.63
+    },
+    {
+      "timestamp_sec": 10.26,
+      "cpu_percent": 1.5,
+      "memory_mb": 1208.63
+    },
+    {
+      "timestamp_sec": 12.26,
+      "cpu_percent": 0.5,
+      "memory_mb": 1208.63
+    },
+    {
+      "timestamp_sec": 14.26,
+      "cpu_percent": 1.0,
+      "memory_mb": 1208.63
+    },
+    {
+      "timestamp_sec": 16.27,
+      "cpu_percent": 0.0,
+      "memory_mb": 1208.63
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.4152777777777778,
+            0.1921875,
+            0.5958333333333333
+          ]
+        },
+        {
+          "type": "adult",
+          "age": 30,
+          "age_range": "20-39",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 90.0,
+          "bbox": [
+            0.4546875,
+            0.1597222222222222,
+            0.2078125,
+            0.8513888888888889
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.36666666666666664,
+            0.20703125,
+            0.6444444444444445
+          ]
+        },
+        {
+          "type": "adult",
+          "age": 30,
+          "age_range": "20-39",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 90.0,
+          "bbox": [
+            0.34765625,
+            0.08333333333333333,
+            0.31484375,
+            0.9277777777777778
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.375,
+            0.1953125,
+            0.6361111111111111
+          ]
+        },
+        {
+          "type": "adult",
+          "age": 30,
+          "age_range": "20-39",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 90.0,
+          "bbox": [
+            0.44375,
+            0.11944444444444445,
+            0.21796875,
+            0.8916666666666667
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34453125,
+            0.37777777777777777,
+            0.19453125,
+            0.6333333333333333
+          ]
+        },
+        {
+          "type": "adult",
+          "age": 30,
+          "age_range": "20-39",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 90.0,
+          "bbox": [
+            0.4578125,
+            0.12361111111111112,
+            0.20390625,
+            0.8875
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.08055555555555556,
+            0.31875,
+            0.9291666666666667
+          ]
+        },
+        {
+          "type": "adult",
+          "age": 30,
+          "age_range": "20-39",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.31875,
+            0.7722222222222223
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.403125,
+            0.3972222222222222,
+            0.2578125,
+            0.6138888888888889
+          ]
+        },
+        {
+          "type": "adult",
+          "age": 30,
+          "age_range": "20-39",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 85.0,
+          "bbox": [
+            0.6015625,
+            0.1875,
+            0.0625,
+            0.7708333333333334
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 70.0,
+          "bbox": [
+            0.3515625,
+            0.8402777777777778,
+            0.0703125,
+            0.09166666666666666
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "dining table",
+          "Confidence": 65.0,
+          "bbox": [
+            0.3703125,
+            0.6652777777777777,
+            0.08125,
+            0.12638888888888888
+          ],
+          "Parents": [
+            "furniture",
+            "table"
+          ]
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.38125,
+            0.3541666666666667,
+            0.28125,
+            0.6569444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 70.0,
+          "bbox": [
+            0.353125,
+            0.8486111111111111,
+            0.0375,
+            0.1625
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "dining table",
+          "Confidence": 60.0,
+          "bbox": [
+            0.3640625,
+            0.6694444444444444,
+            0.06328125,
+            0.12222222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "table"
+          ]
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.371875,
+            0.2625,
+            0.28984375,
+            0.7486111111111111
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.3796875,
+            0.3055555555555556,
+            0.28203125,
+            0.7055555555555556
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 8,
+      "timestamp": 8.0
+    }
+  ]
+}

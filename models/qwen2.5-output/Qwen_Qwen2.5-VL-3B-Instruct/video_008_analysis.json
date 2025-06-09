@@ -1,0 +1,778 @@
+{
+  "video_name": "video_008.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "total_frames": 19,
+  "duration_seconds": 19.0,
+  "summary": {
+    "total_people_detections": 19,
+    "people_types": [
+      "adult",
+      "baby",
+      "child"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 20.49,
+    "total_generated_tokens": 3138,
+    "frames_per_second": 0.93,
+    "tokens_per_second": 153.18
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.64,
+      "cpu_percent": 78.1,
+      "memory_mb": 1111.73
+    },
+    {
+      "timestamp_sec": 4.64,
+      "cpu_percent": 65.4,
+      "memory_mb": 1206.16
+    },
+    {
+      "timestamp_sec": 6.64,
+      "cpu_percent": 88.4,
+      "memory_mb": 1517.34
+    },
+    {
+      "timestamp_sec": 8.64,
+      "cpu_percent": 0.0,
+      "memory_mb": 1517.34
+    },
+    {
+      "timestamp_sec": 10.65,
+      "cpu_percent": 2.0,
+      "memory_mb": 1517.34
+    },
+    {
+      "timestamp_sec": 12.65,
+      "cpu_percent": 1.0,
+      "memory_mb": 1517.34
+    },
+    {
+      "timestamp_sec": 14.65,
+      "cpu_percent": 1.5,
+      "memory_mb": 1517.34
+    },
+    {
+      "timestamp_sec": 16.65,
+      "cpu_percent": 0.5,
+      "memory_mb": 1517.34
+    },
+    {
+      "timestamp_sec": 18.66,
+      "cpu_percent": 2.0,
+      "memory_mb": 1517.34
+    },
+    {
+      "timestamp_sec": 20.66,
+      "cpu_percent": 0.5,
+      "memory_mb": 1517.34
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.434375,
+            0.35,
+            0.228125,
+            0.5138888888888888
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bottle",
+          "Confidence": 0.85,
+          "bbox": [
+            0.35,
+            0.625,
+            0.08359375,
+            0.20833333333333334
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.4625,
+            0.25,
+            0.1984375,
+            0.5569444444444445
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bottle",
+          "Confidence": 0.9,
+          "bbox": [
+            0.36640625,
+            0.5333333333333333,
+            0.08359375,
+            0.2263888888888889
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.85,
+          "bbox": [
+            0.4265625,
+            0.2638888888888889,
+            0.23515625,
+            0.5944444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.2611111111111111,
+            0.31796875,
+            0.5972222222222222
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "bottle",
+          "Confidence": 0.8,
+          "bbox": [
+            0.4078125,
+            0.6458333333333334,
+            0.084375,
+            0.21666666666666667
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "adult",
+          "age": 30,
+          "age_range": "20-39",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34296875,
+            0.275,
+            0.1953125,
+            0.5875
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "wall",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34296875,
+            0.001388888888888889,
+            0.31953125,
+            0.8611111111111112
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "adult",
+          "age": 30,
+          "age_range": "20-39",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.85,
+          "bbox": [
+            0.34375,
+            0.14583333333333334,
+            0.2265625,
+            0.7180555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "wall",
+          "Confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31796875,
+            0.8638888888888889
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.38828125,
+            0.275,
+            0.2734375,
+            0.5305555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bottle",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34375,
+            0.5388888888888889,
+            0.0984375,
+            0.325
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "surprised",
+          "confidence": 0.95,
+          "bbox": [
+            0.38515625,
+            0.26666666666666666,
+            0.2765625,
+            0.5208333333333334
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bottle",
+          "Confidence": 0.85,
+          "bbox": [
+            0.3421875,
+            0.5236111111111111,
+            0.07578125,
+            0.34444444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.37421875,
+            0.24444444444444444,
+            0.2875,
+            0.525
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bottle",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34453125,
+            0.525,
+            0.0640625,
+            0.22777777777777777
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.4125,
+            0.225,
+            0.24921875,
+            0.5638888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "couch",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34375,
+            0.15,
+            0.21484375,
+            0.23194444444444445
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "bed",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.3277777777777778,
+            0.31796875,
+            0.6833333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.38046875,
+            0.20555555555555555,
+            0.2546875,
+            0.5833333333333334
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "high chair",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34296875,
+            0.24166666666666667,
+            0.31875,
+            0.44305555555555554
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.38046875,
+            0.2222222222222222,
+            0.2640625,
+            0.5944444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "couch",
+          "Confidence": 0.8,
+          "bbox": [
+            0.34375,
+            0.15,
+            0.2125,
+            0.5333333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34140625,
+            0.26666666666666666,
+            0.3203125,
+            0.5208333333333334
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34140625,
+            0.18194444444444444,
+            0.3203125,
+            0.6055555555555555
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "adult",
+          "age": 30,
+          "age_range": "20-39",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.85,
+          "bbox": [
+            0.34375,
+            0.3333333333333333,
+            0.1265625,
+            0.5305555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "table",
+          "Confidence": 0.9,
+          "bbox": [
+            0.4296875,
+            0.5694444444444444,
+            0.23125,
+            0.29444444444444445
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "cell phone",
+          "Confidence": 0.8,
+          "bbox": [
+            0.52578125,
+            0.7638888888888888,
+            0.02734375,
+            0.03333333333333333
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "cup",
+          "Confidence": 0.7,
+          "bbox": [
+            0.53046875,
+            0.6916666666666667,
+            0.0265625,
+            0.058333333333333334
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "remote control",
+          "Confidence": 0.6,
+          "bbox": [
+            0.4703125,
+            0.7458333333333333,
+            0.05546875,
+            0.05138888888888889
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "chair",
+          "Confidence": 0.5,
+          "bbox": [
+            0.3421875,
+            0.5694444444444444,
+            0.0875,
+            0.2569444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.85,
+          "bbox": [
+            0.4078125,
+            0.4652777777777778,
+            0.25390625,
+            0.39861111111111114
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "couch",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.35694444444444445,
+            0.31796875,
+            0.3625
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "remote",
+          "Confidence": 0.8,
+          "bbox": [
+            0.5203125,
+            0.5777777777777777,
+            0.09375,
+            0.15833333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.3703125,
+            0.22916666666666666,
+            0.2921875,
+            0.5430555555555555
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "high chair",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34375,
+            0.19027777777777777,
+            0.31875,
+            0.5041666666666667
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 14,
+      "timestamp": 14.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.35390625,
+            0.19444444444444445,
+            0.2875,
+            0.625
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "couch",
+          "Confidence": 0.8,
+          "bbox": [
+            0.3453125,
+            0.16666666666666666,
+            0.3171875,
+            0.5277777777777778
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 15,
+      "timestamp": 15.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34296875,
+            0.2013888888888889,
+            0.31875,
+            0.5583333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 0.8,
+          "bbox": [
+            0.34296875,
+            0.2013888888888889,
+            0.31875,
+            0.5583333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 16,
+      "timestamp": 16.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34296875,
+            0.23333333333333334,
+            0.3078125,
+            0.5194444444444445
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34296875,
+            0.15,
+            0.31875,
+            0.7152777777777778
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 17,
+      "timestamp": 17.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.36640625,
+            0.24166666666666667,
+            0.284375,
+            0.5263888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bottle",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34375,
+            0.1527777777777778,
+            0.31796875,
+            0.5416666666666666
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 18,
+      "timestamp": 18.0
+    }
+  ]
+}

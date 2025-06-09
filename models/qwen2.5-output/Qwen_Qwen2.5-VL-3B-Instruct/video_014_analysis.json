@@ -1,0 +1,712 @@
+{
+  "video_name": "video_014.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "total_frames": 20,
+  "duration_seconds": 20.0,
+  "summary": {
+    "total_people_detections": 20,
+    "people_types": [
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 12.32,
+    "total_generated_tokens": 2934,
+    "frames_per_second": 1.62,
+    "tokens_per_second": 238.24
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.4,
+      "cpu_percent": 81.2,
+      "memory_mb": 1115.24
+    },
+    {
+      "timestamp_sec": 4.4,
+      "cpu_percent": 69.9,
+      "memory_mb": 1223.73
+    },
+    {
+      "timestamp_sec": 6.4,
+      "cpu_percent": 82.9,
+      "memory_mb": 1540.97
+    },
+    {
+      "timestamp_sec": 8.4,
+      "cpu_percent": 0.5,
+      "memory_mb": 1540.97
+    },
+    {
+      "timestamp_sec": 10.41,
+      "cpu_percent": 1.5,
+      "memory_mb": 1540.97
+    },
+    {
+      "timestamp_sec": 12.41,
+      "cpu_percent": 1.0,
+      "memory_mb": 1541.18
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.265625,
+            0.0,
+            0.73984375,
+            1.011111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.09296875,
+            0.42777777777777776,
+            0.9125,
+            0.5611111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.2578125,
+            0.0,
+            0.4234375,
+            0.9708333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.09375,
+            0.35694444444444445,
+            0.91171875,
+            0.5430555555555555
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.23671875,
+            0.06944444444444445,
+            0.76875,
+            0.9416666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.05234375,
+            0.49583333333333335,
+            0.953125,
+            0.5152777777777777
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.2875,
+            0.041666666666666664,
+            0.4671875,
+            0.9680555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.1140625,
+            0.49722222222222223,
+            0.89140625,
+            0.5125
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.23828125,
+            0.0,
+            0.39609375,
+            1.011111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.0765625,
+            0.46944444444444444,
+            0.92890625,
+            0.5416666666666666
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.225,
+            0.0,
+            0.6421875,
+            1.011111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.0359375,
+            0.4222222222222222,
+            0.94765625,
+            0.5888888888888889
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.203125,
+            0.016666666666666666,
+            0.59921875,
+            0.9944444444444445
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.0234375,
+            0.45416666666666666,
+            0.946875,
+            0.5569444444444445
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.23203125,
+            0.02638888888888889,
+            0.6203125,
+            0.9847222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.0546875,
+            0.4847222222222222,
+            0.95078125,
+            0.5263888888888889
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.2484375,
+            0.0,
+            0.4125,
+            1.011111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.0609375,
+            0.4513888888888889,
+            0.94453125,
+            0.5597222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.25546875,
+            0.030555555555555555,
+            0.75,
+            0.9805555555555555
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.06875,
+            0.4791666666666667,
+            0.93671875,
+            0.5319444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.24609375,
+            0.034722222222222224,
+            0.759375,
+            0.9763888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.071875,
+            0.5,
+            0.93359375,
+            0.5111111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.2515625,
+            0.041666666666666664,
+            0.75390625,
+            0.9694444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.0765625,
+            0.5083333333333333,
+            0.92890625,
+            0.5027777777777778
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.27109375,
+            0.05277777777777778,
+            0.68984375,
+            0.9569444444444445
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.09765625,
+            0.48055555555555557,
+            0.9078125,
+            0.5291666666666667
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.209375,
+            0.05416666666666667,
+            0.5953125,
+            0.9555555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.0328125,
+            0.46111111111111114,
+            0.915625,
+            0.5375
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.21484375,
+            0.05555555555555555,
+            0.790625,
+            0.9555555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.04375,
+            0.46111111111111114,
+            0.91875,
+            0.5333333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 14,
+      "timestamp": 14.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.234375,
+            0.05555555555555555,
+            0.3953125,
+            0.9541666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.06953125,
+            0.475,
+            0.91484375,
+            0.5347222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 15,
+      "timestamp": 15.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.22421875,
+            0.020833333333333332,
+            0.40078125,
+            0.9888888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "ukulele",
+          "Confidence": 0.98,
+          "bbox": [
+            0.06640625,
+            0.4388888888888889,
+            0.91640625,
+            0.5055555555555555
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 16,
+      "timestamp": 16.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.2375,
+            0.027777777777777776,
+            0.40703125,
+            0.9819444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.0828125,
+            0.43333333333333335,
+            0.90390625,
+            0.49722222222222223
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 17,
+      "timestamp": 17.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.23984375,
+            0.027777777777777776,
+            0.4015625,
+            0.9819444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.08515625,
+            0.4361111111111111,
+            0.91328125,
+            0.5152777777777777
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 18,
+      "timestamp": 18.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.240625,
+            0.025,
+            0.41015625,
+            0.9847222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "guitar",
+          "Confidence": 0.98,
+          "bbox": [
+            0.08984375,
+            0.39444444444444443,
+            0.90859375,
+            0.5361111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 19,
+      "timestamp": 19.0
+    }
+  ]
+}

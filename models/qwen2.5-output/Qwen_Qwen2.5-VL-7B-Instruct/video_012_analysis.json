@@ -1,0 +1,1057 @@
+{
+  "video_name": "video_012.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "total_frames": 20,
+  "duration_seconds": 20.0,
+  "summary": {
+    "total_people_detections": 20,
+    "people_types": [
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 14.07,
+    "total_generated_tokens": 4329,
+    "frames_per_second": 1.42,
+    "tokens_per_second": 307.62
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.4,
+      "cpu_percent": 70.5,
+      "memory_mb": 1116.48
+    },
+    {
+      "timestamp_sec": 4.4,
+      "cpu_percent": 61.4,
+      "memory_mb": 1232.43
+    },
+    {
+      "timestamp_sec": 6.41,
+      "cpu_percent": 89.4,
+      "memory_mb": 1544.05
+    },
+    {
+      "timestamp_sec": 8.41,
+      "cpu_percent": 0.0,
+      "memory_mb": 1544.05
+    },
+    {
+      "timestamp_sec": 10.41,
+      "cpu_percent": 1.5,
+      "memory_mb": 1544.05
+    },
+    {
+      "timestamp_sec": 12.41,
+      "cpu_percent": 1.0,
+      "memory_mb": 1544.05
+    },
+    {
+      "timestamp_sec": 14.41,
+      "cpu_percent": 1.5,
+      "memory_mb": 1544.05
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.39765625,
+            0.04722222222222222,
+            0.178125,
+            0.7138888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.3734375,
+            0.2861111111111111,
+            0.2359375,
+            0.4222222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.40078125,
+            0.4666666666666667,
+            0.08359375,
+            0.125
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.353125,
+            0.06805555555555555,
+            0.23046875,
+            0.7013888888888888
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.384375,
+            0.30833333333333335,
+            0.2328125,
+            0.4027777777777778
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.3546875,
+            0.5069444444444444,
+            0.046875,
+            0.11805555555555555
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.38828125,
+            0.075,
+            0.2,
+            0.6986111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.403125,
+            0.33055555555555555,
+            0.21953125,
+            0.3902777777777778
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.38203125,
+            0.41944444444444445,
+            0.05234375,
+            0.2222222222222222
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3890625,
+            0.09305555555555556,
+            0.1984375,
+            0.6916666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38515625,
+            0.3472222222222222,
+            0.23515625,
+            0.38055555555555554
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 90.0,
+          "bbox": [
+            0.43125,
+            0.5138888888888888,
+            0.05,
+            0.13194444444444445
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.38671875,
+            0.1,
+            0.19921875,
+            0.6722222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38515625,
+            0.33611111111111114,
+            0.23046875,
+            0.4027777777777778
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "bottle",
+          "Confidence": 70.0,
+          "bbox": [
+            0.434375,
+            0.5,
+            0.05390625,
+            0.12222222222222222
+          ],
+          "Parents": [
+            "container",
+            "drink"
+          ]
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3921875,
+            0.10277777777777777,
+            0.19609375,
+            0.6694444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38671875,
+            0.3638888888888889,
+            0.23359375,
+            0.36944444444444446
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 90.0,
+          "bbox": [
+            0.4546875,
+            0.4888888888888889,
+            0.065625,
+            0.09166666666666666
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3921875,
+            0.15555555555555556,
+            0.19453125,
+            0.625
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.4078125,
+            0.3194444444444444,
+            0.2125,
+            0.41944444444444445
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.4328125,
+            0.49722222222222223,
+            0.084375,
+            0.08611111111111111
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.39609375,
+            0.14444444444444443,
+            0.18671875,
+            0.6541666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.3890625,
+            0.33611111111111114,
+            0.23125,
+            0.41388888888888886
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.49765625,
+            0.37777777777777777,
+            0.11171875,
+            0.1638888888888889
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.40546875,
+            0.14305555555555555,
+            0.184375,
+            0.6458333333333334
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.3921875,
+            0.33611111111111114,
+            0.234375,
+            0.4027777777777778
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.465625,
+            0.4986111111111111,
+            0.12265625,
+            0.06111111111111111
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.396875,
+            0.1,
+            0.1890625,
+            0.6944444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38515625,
+            0.33055555555555555,
+            0.23203125,
+            0.4083333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.4375,
+            0.5513888888888889,
+            0.09296875,
+            0.1111111111111111
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3890625,
+            0.15,
+            0.19140625,
+            0.65
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38359375,
+            0.3402777777777778,
+            0.2296875,
+            0.40694444444444444
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.4671875,
+            0.5361111111111111,
+            0.05859375,
+            0.09166666666666666
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3953125,
+            0.10138888888888889,
+            0.190625,
+            0.6930555555555555
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38515625,
+            0.33194444444444443,
+            0.23828125,
+            0.4083333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.4484375,
+            0.5111111111111111,
+            0.071875,
+            0.11666666666666667
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3890625,
+            0.1527777777777778,
+            0.190625,
+            0.6527777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38125,
+            0.34444444444444444,
+            0.2296875,
+            0.41388888888888886
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.4515625,
+            0.5388888888888889,
+            0.078125,
+            0.09027777777777778
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.38828125,
+            0.1486111111111111,
+            0.18828125,
+            0.6625
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.3734375,
+            0.35694444444444445,
+            0.2203125,
+            0.4041666666666667
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.4328125,
+            0.5833333333333334,
+            0.04609375,
+            0.14722222222222223
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.39375,
+            0.15,
+            0.1921875,
+            0.6527777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.3875,
+            0.3638888888888889,
+            0.2296875,
+            0.39166666666666666
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.4296875,
+            0.5763888888888888,
+            0.046875,
+            0.13472222222222222
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 14,
+      "timestamp": 14.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3921875,
+            0.1527777777777778,
+            0.19375,
+            0.65
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38671875,
+            0.3472222222222222,
+            0.234375,
+            0.4083333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.43203125,
+            0.5666666666666667,
+            0.04453125,
+            0.14583333333333334
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 15,
+      "timestamp": 15.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.390625,
+            0.1527777777777778,
+            0.19375,
+            0.65
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38515625,
+            0.34444444444444444,
+            0.23359375,
+            0.4083333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.4265625,
+            0.5736111111111111,
+            0.0484375,
+            0.1375
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 16,
+      "timestamp": 16.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.35,
+            0.16666666666666666,
+            0.24375,
+            0.6486111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38359375,
+            0.3527777777777778,
+            0.22265625,
+            0.40694444444444444
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.41875,
+            0.6111111111111112,
+            0.0515625,
+            0.12916666666666668
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 17,
+      "timestamp": 17.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.353125,
+            0.16944444444444445,
+            0.26796875,
+            0.6375
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.3828125,
+            0.37083333333333335,
+            0.24609375,
+            0.3888888888888889
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.4140625,
+            0.5833333333333334,
+            0.0359375,
+            0.14166666666666666
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 18,
+      "timestamp": 18.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.37109375,
+            0.18194444444444444,
+            0.22890625,
+            0.625
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.38203125,
+            0.35,
+            0.225,
+            0.40555555555555556
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "maraca",
+          "Confidence": 70.0,
+          "bbox": [
+            0.403125,
+            0.5805555555555556,
+            0.04609375,
+            0.15555555555555556
+          ],
+          "Parents": [
+            "toy",
+            "musical_instrument"
+          ]
+        }
+      ],
+      "frame": 19,
+      "timestamp": 19.0
+    }
+  ]
+}

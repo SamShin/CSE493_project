@@ -1,0 +1,1151 @@
+{
+  "video_name": "video_001.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "total_frames": 20,
+  "duration_seconds": 20.0,
+  "summary": {
+    "total_people_detections": 20,
+    "people_types": [
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 16.84,
+    "total_generated_tokens": 4573,
+    "frames_per_second": 1.19,
+    "tokens_per_second": 271.63
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.33,
+      "cpu_percent": 73.4,
+      "memory_mb": 1114.85
+    },
+    {
+      "timestamp_sec": 4.33,
+      "cpu_percent": 66.3,
+      "memory_mb": 1288.4
+    },
+    {
+      "timestamp_sec": 6.34,
+      "cpu_percent": 75.4,
+      "memory_mb": 1551.56
+    },
+    {
+      "timestamp_sec": 8.34,
+      "cpu_percent": 0.0,
+      "memory_mb": 1551.56
+    },
+    {
+      "timestamp_sec": 10.34,
+      "cpu_percent": 1.0,
+      "memory_mb": 1551.56
+    },
+    {
+      "timestamp_sec": 12.34,
+      "cpu_percent": 1.5,
+      "memory_mb": 1551.56
+    },
+    {
+      "timestamp_sec": 14.35,
+      "cpu_percent": 1.0,
+      "memory_mb": 1551.56
+    },
+    {
+      "timestamp_sec": 16.35,
+      "cpu_percent": 0.5,
+      "memory_mb": 1551.56
+    },
+    {
+      "timestamp_sec": 18.35,
+      "cpu_percent": 0.0,
+      "memory_mb": 1551.56
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.03333333333333333,
+            0.296875,
+            0.9763888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.22890625,
+            1.0097222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.603125,
+            0.3861111111111111,
+            0.05859375,
+            0.6236111111111111
+          ],
+          "Parents": [
+            "textile",
+            "bedding"
+          ]
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.041666666666666664,
+            0.296875,
+            0.9680555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.2453125,
+            1.0097222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "stuffed animal",
+          "Confidence": 70.0,
+          "bbox": [
+            0.41328125,
+            0.09583333333333334,
+            0.03203125,
+            0.08611111111111111
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "surprised",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.04583333333333333,
+            0.28828125,
+            0.9652777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.24609375,
+            1.011111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "stuffed animal",
+          "Confidence": 70.0,
+          "bbox": [
+            0.40234375,
+            0.09722222222222222,
+            0.0625,
+            0.1
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "surprised",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.05555555555555555,
+            0.259375,
+            0.9541666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.016666666666666666,
+            0.31875,
+            0.9930555555555556
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "stuffed animal",
+          "Confidence": 70.0,
+          "bbox": [
+            0.353125,
+            0.10833333333333334,
+            0.07109375,
+            0.08611111111111111
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.2984375,
+            1.011111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.2984375,
+            1.011111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "text",
+          "Confidence": 70.0,
+          "bbox": [
+            0.3859375,
+            0.675,
+            0.2328125,
+            0.15416666666666667
+          ],
+          "Parents": [
+            "object",
+            "text"
+          ]
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.001388888888888889,
+            0.30078125,
+            1.0097222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.30078125,
+            1.011111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "couch",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.30078125,
+            1.011111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "pillow",
+          "Confidence": 60.0,
+          "bbox": [
+            0.590625,
+            0.15833333333333333,
+            0.07109375,
+            0.2222222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "textile"
+          ]
+        },
+        {
+          "Name": "textile",
+          "Confidence": 50.0,
+          "bbox": [
+            0.590625,
+            0.15833333333333333,
+            0.07109375,
+            0.2222222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "textile"
+          ]
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.06944444444444445,
+            0.30859375,
+            0.9416666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.21484375,
+            1.011111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "couch",
+          "Confidence": 70.0,
+          "bbox": [
+            0.58125,
+            0.15833333333333333,
+            0.08046875,
+            0.3138888888888889
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "stuffed animal",
+          "Confidence": 60.0,
+          "bbox": [
+            0.3546875,
+            0.07777777777777778,
+            0.0765625,
+            0.09583333333333334
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.013888888888888888,
+            0.2828125,
+            0.9972222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.013888888888888888,
+            0.2828125,
+            0.9972222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34296875,
+            0.05416666666666667,
+            0.07265625,
+            0.09166666666666666
+          ],
+          "Parents": [
+            "object",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "surprised",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.013888888888888888,
+            0.290625,
+            0.9972222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.013888888888888888,
+            0.290625,
+            0.9972222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34296875,
+            0.07083333333333333,
+            0.07109375,
+            0.0875
+          ],
+          "Parents": [
+            "object",
+            "inanimate"
+          ]
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "surprised",
+          "confidence": 95.0,
+          "bbox": [
+            0.35703125,
+            0.03333333333333333,
+            0.26796875,
+            0.9777777777777777
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.23203125,
+            1.011111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34296875,
+            0.09444444444444444,
+            0.06171875,
+            0.09305555555555556
+          ],
+          "Parents": [
+            "object",
+            "toy"
+          ]
+        },
+        {
+          "Name": "basket",
+          "Confidence": 65.0,
+          "bbox": [
+            0.5609375,
+            0.18472222222222223,
+            0.1,
+            0.20416666666666666
+          ],
+          "Parents": [
+            "container",
+            "storage"
+          ]
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.365625,
+            0.044444444444444446,
+            0.265625,
+            0.9666666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34296875,
+            0.013888888888888888,
+            0.23828125,
+            0.8708333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34296875,
+            0.10833333333333334,
+            0.05,
+            0.08611111111111111
+          ],
+          "Parents": [
+            "object",
+            "childhood"
+          ]
+        },
+        {
+          "Name": "basket",
+          "Confidence": 60.0,
+          "bbox": [
+            0.56875,
+            0.19027777777777777,
+            0.0921875,
+            0.20555555555555555
+          ],
+          "Parents": [
+            "container",
+            "storage"
+          ]
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.03333333333333333,
+            0.2890625,
+            0.9777777777777777
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.31875,
+            1.011111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34296875,
+            0.09305555555555556,
+            0.04609375,
+            0.0875
+          ],
+          "Parents": [
+            "object",
+            "inanimate"
+          ]
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.030555555555555555,
+            0.2953125,
+            0.9791666666666666
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.24140625,
+            1.0097222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34296875,
+            0.08333333333333333,
+            0.04921875,
+            0.08333333333333333
+          ],
+          "Parents": [
+            "object",
+            "childhood"
+          ]
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.36796875,
+            0.013888888888888888,
+            0.28046875,
+            0.9958333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34296875,
+            0.001388888888888889,
+            0.31953125,
+            1.0083333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.005555555555555556,
+            0.303125,
+            1.0041666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.5828125,
+            0.17777777777777778,
+            0.07890625,
+            0.2111111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "bed",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34296875,
+            0.001388888888888889,
+            0.31875,
+            1.0083333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "sleeping"
+          ]
+        }
+      ],
+      "frame": 14,
+      "timestamp": 14.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.03333333333333333,
+            0.30078125,
+            0.9763888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.013888888888888888,
+            0.234375,
+            0.9958333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "couch",
+          "Confidence": 70.0,
+          "bbox": [
+            0.578125,
+            0.18888888888888888,
+            0.084375,
+            0.28055555555555556
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        }
+      ],
+      "frame": 15,
+      "timestamp": 15.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.04722222222222222,
+            0.29921875,
+            0.9625
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34375,
+            0.019444444444444445,
+            0.246875,
+            0.9902777777777778
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 70.0,
+          "bbox": [
+            0.35,
+            0.10694444444444444,
+            0.05625,
+            0.08333333333333333
+          ],
+          "Parents": [
+            "object",
+            "toy"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 65.0,
+          "bbox": [
+            0.56640625,
+            0.14444444444444443,
+            0.0953125,
+            0.07777777777777778
+          ],
+          "Parents": [
+            "object",
+            "toy"
+          ]
+        }
+      ],
+      "frame": 16,
+      "timestamp": 16.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.10694444444444444,
+            0.3125,
+            0.9041666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.05277777777777778,
+            0.21015625,
+            0.9583333333333334
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "stuffed animal",
+          "Confidence": 70.0,
+          "bbox": [
+            0.3578125,
+            0.14166666666666666,
+            0.0875,
+            0.09861111111111111
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 17,
+      "timestamp": 17.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.15555555555555556,
+            0.31875,
+            0.8555555555555555
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.075,
+            0.20546875,
+            0.9361111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 70.0,
+          "bbox": [
+            0.3765625,
+            0.16111111111111112,
+            0.053125,
+            0.08888888888888889
+          ],
+          "Parents": [
+            "object",
+            "animal"
+          ]
+        },
+        {
+          "Name": "dining table",
+          "Confidence": 60.0,
+          "bbox": [
+            0.36640625,
+            0.020833333333333332,
+            0.1828125,
+            0.06944444444444445
+          ],
+          "Parents": [
+            "furniture",
+            "table"
+          ]
+        }
+      ],
+      "frame": 18,
+      "timestamp": 18.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.10416666666666667,
+            0.30546875,
+            0.9069444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.06666666666666667,
+            0.31953125,
+            0.9444444444444444
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "toy",
+          "Confidence": 70.0,
+          "bbox": [
+            0.35078125,
+            0.15555555555555556,
+            0.05546875,
+            0.09166666666666666
+          ],
+          "Parents": [
+            "object",
+            "toy"
+          ]
+        }
+      ],
+      "frame": 19,
+      "timestamp": 19.0
+    }
+  ]
+}

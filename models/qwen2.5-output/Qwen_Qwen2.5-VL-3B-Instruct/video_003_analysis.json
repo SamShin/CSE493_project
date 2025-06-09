@@ -1,0 +1,1038 @@
+{
+  "video_name": "video_003.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "total_frames": 20,
+  "duration_seconds": 20.0,
+  "summary": {
+    "total_people_detections": 22,
+    "people_types": [
+      "adult",
+      "baby",
+      "child"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 23.55,
+    "total_generated_tokens": 4254,
+    "frames_per_second": 0.85,
+    "tokens_per_second": 180.65
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.47,
+      "cpu_percent": 73.0,
+      "memory_mb": 1116.38
+    },
+    {
+      "timestamp_sec": 4.47,
+      "cpu_percent": 58.9,
+      "memory_mb": 1197.82
+    },
+    {
+      "timestamp_sec": 6.47,
+      "cpu_percent": 88.9,
+      "memory_mb": 1543.85
+    },
+    {
+      "timestamp_sec": 8.47,
+      "cpu_percent": 0.5,
+      "memory_mb": 1543.85
+    },
+    {
+      "timestamp_sec": 10.48,
+      "cpu_percent": 0.5,
+      "memory_mb": 1543.85
+    },
+    {
+      "timestamp_sec": 12.48,
+      "cpu_percent": 1.0,
+      "memory_mb": 1544.08
+    },
+    {
+      "timestamp_sec": 14.48,
+      "cpu_percent": 1.0,
+      "memory_mb": 1544.08
+    },
+    {
+      "timestamp_sec": 16.48,
+      "cpu_percent": 1.5,
+      "memory_mb": 1544.08
+    },
+    {
+      "timestamp_sec": 18.49,
+      "cpu_percent": 1.0,
+      "memory_mb": 1544.08
+    },
+    {
+      "timestamp_sec": 20.49,
+      "cpu_percent": 0.5,
+      "memory_mb": 1544.08
+    },
+    {
+      "timestamp_sec": 22.49,
+      "cpu_percent": 1.0,
+      "memory_mb": 1544.08
+    },
+    {
+      "timestamp_sec": 24.49,
+      "cpu_percent": 1.0,
+      "memory_mb": 1544.08
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.85,
+          "bbox": [
+            0.38984375,
+            0.0,
+            0.27265625,
+            0.6666666666666666
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.9,
+          "bbox": [
+            0.35234375,
+            0.4305555555555556,
+            0.11015625,
+            0.4638888888888889
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.36484375,
+            0.075,
+            0.296875,
+            0.5555555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.4388888888888889,
+            0.146875,
+            0.5125
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.85,
+          "bbox": [
+            0.53359375,
+            0.0,
+            0.12890625,
+            0.27361111111111114
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.26015625,
+            0.37083333333333335,
+            0.18984375,
+            0.30694444444444446
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "pumpkin",
+          "Confidence": 0.8,
+          "bbox": [
+            0.30859375,
+            0.5555555555555556,
+            0.1796875,
+            0.23333333333333334
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.45078125,
+            0.0,
+            0.2109375,
+            0.7708333333333334
+          ]
+        },
+        {
+          "type": "adult",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.121875,
+            0.3402777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.95,
+          "bbox": [
+            0.3609375,
+            0.4083333333333333,
+            0.15703125,
+            0.4847222222222222
+          ],
+          "Parents": [
+            "toy"
+          ]
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.44765625,
+            0.0,
+            0.21328125,
+            0.8194444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34453125,
+            0.45694444444444443,
+            0.12734375,
+            0.3125
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "cactus pot",
+          "Confidence": 0.8,
+          "bbox": [
+            0.378125,
+            0.6916666666666667,
+            0.10859375,
+            0.2791666666666667
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.43203125,
+            0.0,
+            0.2296875,
+            0.7847222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.98,
+          "bbox": [
+            0.3734375,
+            0.41944444444444445,
+            0.1375,
+            0.46944444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.39375,
+            0.0,
+            0.26640625,
+            0.7916666666666666
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.35,
+            0.42777777777777776,
+            0.1515625,
+            0.35
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "orange",
+          "Confidence": 0.8,
+          "bbox": [
+            0.396875,
+            0.6944444444444444,
+            0.096875,
+            0.1986111111111111
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "cat toy",
+          "Confidence": 0.9,
+          "bbox": [
+            0.49765625,
+            0.5555555555555556,
+            0.0765625,
+            0.2361111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.4734375,
+            0.027777777777777776,
+            0.18828125,
+            0.6916666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.390625,
+            0.39166666666666666,
+            0.1078125,
+            0.425
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "carrot",
+          "Confidence": 0.8,
+          "bbox": [
+            0.4234375,
+            0.6069444444444444,
+            0.0953125,
+            0.20972222222222223
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.013888888888888888,
+            0.2,
+            0.7361111111111112
+          ]
+        },
+        {
+          "type": "child",
+          "age": 2,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.453125,
+            0.0,
+            0.209375,
+            0.8583333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.3609375,
+            0.4375,
+            0.13984375,
+            0.4722222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.40703125,
+            0.03333333333333333,
+            0.221875,
+            0.8347222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.37734375,
+            0.4527777777777778,
+            0.15390625,
+            0.3680555555555556
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "carrot",
+          "Confidence": 0.8,
+          "bbox": [
+            0.4109375,
+            0.7638888888888888,
+            0.10625,
+            0.23055555555555557
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "fireplace",
+          "Confidence": 0.7,
+          "bbox": [
+            0.3390625,
+            0.0,
+            0.27109375,
+            0.2638888888888889
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "basket",
+          "Confidence": 0.6,
+          "bbox": [
+            0.6,
+            0.013888888888888888,
+            0.0640625,
+            0.23333333333333334
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.390625,
+            0.0763888888888889,
+            0.25390625,
+            0.8569444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "pajamas",
+          "Confidence": 0.98,
+          "bbox": [
+            0.390625,
+            0.31666666666666665,
+            0.25390625,
+            0.6166666666666667
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "pumpkin",
+          "Confidence": 0.95,
+          "bbox": [
+            0.3421875,
+            0.7111111111111111,
+            0.0875,
+            0.2986111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.4328125,
+            0.03888888888888889,
+            0.20859375,
+            0.7986111111111112
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.85,
+          "bbox": [
+            0.359375,
+            0.4263888888888889,
+            0.12734375,
+            0.46805555555555556
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "orange",
+          "Confidence": 0.9,
+          "bbox": [
+            0.31796875,
+            0.6916666666666667,
+            0.16875,
+            0.20277777777777778
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.41171875,
+            0.0,
+            0.20546875,
+            0.8263888888888888
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.44166666666666665,
+            0.153125,
+            0.36527777777777776
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "orange",
+          "Confidence": 0.8,
+          "bbox": [
+            0.40703125,
+            0.7263888888888889,
+            0.08359375,
+            0.15694444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3625,
+            0.0,
+            0.29921875,
+            0.8388888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34296875,
+            0.42083333333333334,
+            0.1625,
+            0.40694444444444444
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "orange",
+          "Confidence": 0.8,
+          "bbox": [
+            0.4,
+            0.7416666666666667,
+            0.1015625,
+            0.175
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.38359375,
+            0.07777777777777778,
+            0.2765625,
+            0.7333333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.38359375,
+            0.4041666666666667,
+            0.13203125,
+            0.36944444444444446
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "carrot",
+          "Confidence": 0.8,
+          "bbox": [
+            0.4171875,
+            0.6777777777777778,
+            0.10625,
+            0.25833333333333336
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "fireplace",
+          "Confidence": 0.7,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31796875,
+            0.25416666666666665
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 14,
+      "timestamp": 14.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.378125,
+            0.0,
+            0.27890625,
+            0.7638888888888888
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.44027777777777777,
+            0.146875,
+            0.4625
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 15,
+      "timestamp": 15.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.44375,
+            0.10277777777777777,
+            0.184375,
+            0.6958333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.36484375,
+            0.46111111111111114,
+            0.12890625,
+            0.5444444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 16,
+      "timestamp": 16.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.44765625,
+            0.013888888888888888,
+            0.209375,
+            0.8638888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.3625,
+            0.4583333333333333,
+            0.153125,
+            0.5513888888888889
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "carrot",
+          "Confidence": 0.8,
+          "bbox": [
+            0.4046875,
+            0.7736111111111111,
+            0.1109375,
+            0.2361111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 17,
+      "timestamp": 17.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.36484375,
+            0.030555555555555555,
+            0.26640625,
+            0.7972222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.36484375,
+            0.375,
+            0.16640625,
+            0.5277777777777778
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "cactus pot",
+          "Confidence": 0.8,
+          "bbox": [
+            0.384375,
+            0.7083333333333334,
+            0.125,
+            0.3013888888888889
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "couch",
+          "Confidence": 0.7,
+          "bbox": [
+            0.34609375,
+            0.3888888888888889,
+            0.31484375,
+            0.6208333333333333
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "fireplace",
+          "Confidence": 0.6,
+          "bbox": [
+            0.340625,
+            0.0,
+            0.2453125,
+            0.29444444444444445
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "basket",
+          "Confidence": 0.5,
+          "bbox": [
+            0.58203125,
+            0.04583333333333333,
+            0.07890625,
+            0.23333333333333334
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 18,
+      "timestamp": 18.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3703125,
+            0.02638888888888889,
+            0.2796875,
+            0.7583333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cactus",
+          "Confidence": 0.9,
+          "bbox": [
+            0.37421875,
+            0.3888888888888889,
+            0.153125,
+            0.4222222222222222
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "carrot",
+          "Confidence": 0.8,
+          "bbox": [
+            0.40703125,
+            0.6944444444444444,
+            0.1109375,
+            0.29305555555555557
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "cactus pot",
+          "Confidence": 0.7,
+          "bbox": [
+            0.4015625,
+            0.6944444444444444,
+            0.11640625,
+            0.29305555555555557
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "couch",
+          "Confidence": 0.6,
+          "bbox": [
+            0.34375,
+            0.3611111111111111,
+            0.31796875,
+            0.65
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "fireplace",
+          "Confidence": 0.5,
+          "bbox": [
+            0.3421875,
+            0.0,
+            0.15,
+            0.2763888888888889
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "basket",
+          "Confidence": 0.4,
+          "bbox": [
+            0.5796875,
+            0.008333333333333333,
+            0.08203125,
+            0.2388888888888889
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 19,
+      "timestamp": 19.0
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "video_name": "video_024.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "total_frames": 15,
+  "duration_seconds": 15.0,
+  "summary": {
+    "total_people_detections": 17,
+    "people_types": [
+      "child"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 14.66,
+    "total_generated_tokens": 2448,
+    "frames_per_second": 1.02,
+    "tokens_per_second": 167.02
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.08,
+      "cpu_percent": 79.7,
+      "memory_mb": 1102.81
+    },
+    {
+      "timestamp_sec": 4.08,
+      "cpu_percent": 70.3,
+      "memory_mb": 1146.43
+    },
+    {
+      "timestamp_sec": 6.09,
+      "cpu_percent": 50.9,
+      "memory_mb": 1379.06
+    },
+    {
+      "timestamp_sec": 8.09,
+      "cpu_percent": 1.0,
+      "memory_mb": 1379.06
+    },
+    {
+      "timestamp_sec": 10.09,
+      "cpu_percent": 0.5,
+      "memory_mb": 1379.06
+    },
+    {
+      "timestamp_sec": 12.09,
+      "cpu_percent": 1.0,
+      "memory_mb": 1379.06
+    },
+    {
+      "timestamp_sec": 14.09,
+      "cpu_percent": 0.5,
+      "memory_mb": 1379.06
+    },
+    {
+      "timestamp_sec": 16.1,
+      "cpu_percent": 0.0,
+      "memory_mb": 1379.06
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.371875,
+            0.15833333333333333,
+            0.26171875,
+            0.8513888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.85,
+          "bbox": [
+            0.5078125,
+            0.5138888888888888,
+            0.04140625,
+            0.10416666666666667
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34453125,
+            0.16944444444444445,
+            0.3,
+            0.8402777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.85,
+          "bbox": [
+            0.47890625,
+            0.46111111111111114,
+            0.04765625,
+            0.16111111111111112
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.38828125,
+            0.16111111111111112,
+            0.25625,
+            0.8486111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.85,
+          "bbox": [
+            0.515625,
+            0.5194444444444445,
+            0.04140625,
+            0.125
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.3625,
+            0.15,
+            0.2671875,
+            0.8597222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.85,
+          "bbox": [
+            0.4984375,
+            0.5388888888888889,
+            0.04609375,
+            0.14166666666666666
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.434375,
+            0.03888888888888889,
+            0.21015625,
+            0.9708333333333333
+          ]
+        },
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.92,
+          "bbox": [
+            0.60703125,
+            0.06111111111111111,
+            0.0546875,
+            0.6972222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.98,
+          "bbox": [
+            0.434375,
+            0.03888888888888889,
+            0.21015625,
+            0.9708333333333333
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "person",
+          "Confidence": 0.92,
+          "bbox": [
+            0.60703125,
+            0.06111111111111111,
+            0.0546875,
+            0.6972222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.0625,
+            0.26796875,
+            0.9472222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.9,
+          "bbox": [
+            0.546875,
+            0.3263888888888889,
+            0.1140625,
+            0.34444444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.05555555555555555,
+            0.30078125,
+            0.9541666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.05555555555555555,
+            0.30078125,
+            0.9541666666666667
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.38671875,
+            0.10833333333333334,
+            0.275,
+            0.9013888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.9,
+          "bbox": [
+            0.459375,
+            0.5083333333333333,
+            0.05625,
+            0.21944444444444444
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3625,
+            0.06944444444444445,
+            0.29921875,
+            0.9402777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.9,
+          "bbox": [
+            0.465625,
+            0.5138888888888888,
+            0.06015625,
+            0.2
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.43515625,
+            0.04861111111111111,
+            0.2265625,
+            0.9611111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.85,
+          "bbox": [
+            0.54765625,
+            0.3611111111111111,
+            0.03828125,
+            0.10555555555555556
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3625,
+            0.1111111111111111,
+            0.26328125,
+            0.8986111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.85,
+          "bbox": [
+            0.475,
+            0.4513888888888889,
+            0.0375,
+            0.12083333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34921875,
+            0.05,
+            0.31171875,
+            0.9597222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.85,
+          "bbox": [
+            0.4953125,
+            0.3736111111111111,
+            0.053125,
+            0.07916666666666666
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3625,
+            0.08333333333333333,
+            0.2984375,
+            0.9263888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.85,
+          "bbox": [
+            0.51015625,
+            0.4444444444444444,
+            0.05859375,
+            0.14166666666666666
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 0.95,
+          "bbox": [
+            0.3890625,
+            0.15,
+            0.27265625,
+            0.8597222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 0.85,
+          "bbox": [
+            0.5,
+            0.5027777777777778,
+            0.04765625,
+            0.08888888888888889
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.415625,
+            0.1111111111111111,
+            0.2109375,
+            0.8986111111111111
+          ]
+        },
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.37578125,
+            0.1111111111111111,
+            0.12734375,
+            0.5555555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.95,
+          "bbox": [
+            0.37578125,
+            0.1111111111111111,
+            0.12734375,
+            0.5555555555555556
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "person",
+          "Confidence": 0.95,
+          "bbox": [
+            0.415625,
+            0.1111111111111111,
+            0.2109375,
+            0.8986111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 14,
+      "timestamp": 14.0
+    }
+  ]
+}

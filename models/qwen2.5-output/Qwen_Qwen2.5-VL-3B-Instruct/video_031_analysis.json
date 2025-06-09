@@ -1,0 +1,913 @@
+{
+  "video_name": "video_031.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "total_frames": 20,
+  "duration_seconds": 20.0,
+  "summary": {
+    "total_people_detections": 20,
+    "people_types": [
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 44.53,
+    "total_generated_tokens": 3404,
+    "frames_per_second": 0.45,
+    "tokens_per_second": 76.44
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.0,
+      "cpu_percent": 4.5,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 4.01,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 6.01,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 8.01,
+      "cpu_percent": 0.5,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 10.01,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 12.01,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 14.02,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 16.02,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 18.02,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 20.02,
+      "cpu_percent": 0.5,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 22.02,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 24.03,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 26.03,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 28.03,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 30.03,
+      "cpu_percent": 0.0,
+      "memory_mb": 906.6
+    },
+    {
+      "timestamp_sec": 32.07,
+      "cpu_percent": 76.2,
+      "memory_mb": 1120.59
+    },
+    {
+      "timestamp_sec": 34.08,
+      "cpu_percent": 49.9,
+      "memory_mb": 1129.17
+    },
+    {
+      "timestamp_sec": 36.08,
+      "cpu_percent": 102.9,
+      "memory_mb": 1530.94
+    },
+    {
+      "timestamp_sec": 38.08,
+      "cpu_percent": 2.0,
+      "memory_mb": 1544.19
+    },
+    {
+      "timestamp_sec": 40.08,
+      "cpu_percent": 2.0,
+      "memory_mb": 1544.42
+    },
+    {
+      "timestamp_sec": 42.08,
+      "cpu_percent": 0.5,
+      "memory_mb": 1544.42
+    },
+    {
+      "timestamp_sec": 44.09,
+      "cpu_percent": 1.0,
+      "memory_mb": 1544.42
+    },
+    {
+      "timestamp_sec": 46.09,
+      "cpu_percent": 0.5,
+      "memory_mb": 1544.42
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34453125,
+            0.23194444444444445,
+            0.31796875,
+            0.7777777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "blanket",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34453125,
+            0.12222222222222222,
+            0.16484375,
+            0.2833333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.4652777777777778,
+            0.31796875,
+            0.5444444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.85,
+          "bbox": [
+            0.34375,
+            0.016666666666666666,
+            0.31796875,
+            0.8430555555555556
+          ],
+          "Parents": [
+            "Animal"
+          ]
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3421875,
+            0.0,
+            0.31953125,
+            1.011111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.95,
+          "bbox": [
+            0.3421875,
+            0.0,
+            0.31953125,
+            1.011111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31875,
+            1.011111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31875,
+            1.011111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34453125,
+            0.18611111111111112,
+            0.3171875,
+            0.8236111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "person",
+          "Confidence": 0.95,
+          "bbox": [
+            0.34453125,
+            0.18611111111111112,
+            0.3171875,
+            0.8236111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34453125,
+            0.24444444444444444,
+            0.3171875,
+            0.7652777777777777
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "blanket",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34453125,
+            0.7930555555555555,
+            0.27890625,
+            0.21666666666666667
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.3333333333333333,
+            0.27265625,
+            0.6763888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.9,
+          "bbox": [
+            0.5203125,
+            0.24305555555555555,
+            0.140625,
+            0.37083333333333335
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "couch",
+          "Confidence": 0.8,
+          "bbox": [
+            0.34375,
+            0.001388888888888889,
+            0.3171875,
+            1.0083333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "sad",
+          "confidence": 0.95,
+          "bbox": [
+            0.34453125,
+            0.2847222222222222,
+            0.26484375,
+            0.725
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "couch",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34453125,
+            0.0,
+            0.3171875,
+            1.0097222222222222
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "cat",
+          "Confidence": 0.95,
+          "bbox": [
+            0.53125,
+            0.2222222222222222,
+            0.13046875,
+            0.36944444444444446
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34453125,
+            0.2708333333333333,
+            0.25234375,
+            0.7388888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.9,
+          "bbox": [
+            0.52890625,
+            0.21805555555555556,
+            0.13203125,
+            0.36944444444444446
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.26944444444444443,
+            0.25546875,
+            0.7402777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.9,
+          "bbox": [
+            0.52109375,
+            0.1875,
+            0.140625,
+            0.3958333333333333
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "couch",
+          "Confidence": 0.8,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31796875,
+            1.0097222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.24722222222222223,
+            0.290625,
+            0.7625
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "couch",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31796875,
+            0.725
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "cat",
+          "Confidence": 0.8,
+          "bbox": [
+            0.34375,
+            0.18333333333333332,
+            0.31796875,
+            0.3861111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.25,
+            0.265625,
+            0.7597222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.17916666666666667,
+            0.31796875,
+            0.39305555555555555
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "couch",
+          "Confidence": 0.8,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31796875,
+            1.0097222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.2625,
+            0.2734375,
+            0.7472222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.9,
+          "bbox": [
+            0.521875,
+            0.1875,
+            0.1390625,
+            0.39305555555555555
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.2611111111111111,
+            0.26875,
+            0.7486111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.85,
+          "bbox": [
+            0.52890625,
+            0.1875,
+            0.13203125,
+            0.4
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34453125,
+            0.2875,
+            0.24765625,
+            0.7222222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.9,
+          "bbox": [
+            0.5140625,
+            0.20694444444444443,
+            0.146875,
+            0.4097222222222222
+          ],
+          "Parents": [
+            "Animal"
+          ]
+        },
+        {
+          "Name": "couch",
+          "Confidence": 0.8,
+          "bbox": [
+            0.34453125,
+            0.0,
+            0.31640625,
+            1.0097222222222222
+          ],
+          "Parents": [
+            "Furniture"
+          ]
+        }
+      ],
+      "frame": 14,
+      "timestamp": 14.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3453125,
+            0.34305555555555556,
+            0.2453125,
+            0.6666666666666666
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "couch",
+          "Confidence": 0.98,
+          "bbox": [
+            0.3453125,
+            0.0,
+            0.31640625,
+            1.0097222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 15,
+      "timestamp": 15.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.2986111111111111,
+            0.103125,
+            0.4375
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "couch",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31796875,
+            1.011111111111111
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "cat",
+          "Confidence": 0.95,
+          "bbox": [
+            0.41171875,
+            0.30416666666666664,
+            0.25,
+            0.40555555555555556
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 16,
+      "timestamp": 16.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.3125,
+            0.22890625,
+            0.5013888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "car seat",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31796875,
+            1.011111111111111
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.4305555555555556,
+            0.22890625,
+            0.5805555555555556
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 17,
+      "timestamp": 17.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.29305555555555557,
+            0.165625,
+            0.37916666666666665
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.9,
+          "bbox": [
+            0.459375,
+            0.31666666666666665,
+            0.20234375,
+            0.3888888888888889
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "car seat",
+          "Confidence": 0.8,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31796875,
+            1.011111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 18,
+      "timestamp": 18.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.33611111111111114,
+            0.1328125,
+            0.3861111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "cat",
+          "Confidence": 0.98,
+          "bbox": [
+            0.43203125,
+            0.3611111111111111,
+            0.2296875,
+            0.375
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "car",
+          "Confidence": 0.99,
+          "bbox": [
+            0.34375,
+            0.0,
+            0.31796875,
+            1.011111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 19,
+      "timestamp": 19.0
+    }
+  ]
+}

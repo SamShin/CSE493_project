@@ -1,0 +1,594 @@
+{
+  "video_name": "video_024.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "total_frames": 15,
+  "duration_seconds": 15.0,
+  "summary": {
+    "total_people_detections": 18,
+    "people_types": [
+      "child"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 13.95,
+    "total_generated_tokens": 2390,
+    "frames_per_second": 1.08,
+    "tokens_per_second": 171.35
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.34,
+      "cpu_percent": 80.4,
+      "memory_mb": 1097.8
+    },
+    {
+      "timestamp_sec": 4.34,
+      "cpu_percent": 69.9,
+      "memory_mb": 1108.64
+    },
+    {
+      "timestamp_sec": 6.34,
+      "cpu_percent": 59.9,
+      "memory_mb": 1344.15
+    },
+    {
+      "timestamp_sec": 8.34,
+      "cpu_percent": 0.0,
+      "memory_mb": 1344.15
+    },
+    {
+      "timestamp_sec": 10.35,
+      "cpu_percent": 1.0,
+      "memory_mb": 1344.15
+    },
+    {
+      "timestamp_sec": 12.35,
+      "cpu_percent": 0.5,
+      "memory_mb": 1344.15
+    },
+    {
+      "timestamp_sec": 14.35,
+      "cpu_percent": 1.0,
+      "memory_mb": 1344.15
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.3734375,
+            0.15,
+            0.26015625,
+            0.8611111111111112
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.509375,
+            0.5180555555555556,
+            0.040625,
+            0.1388888888888889
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34453125,
+            0.16666666666666666,
+            0.2984375,
+            0.8444444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.478125,
+            0.45416666666666666,
+            0.046875,
+            0.15416666666666667
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3859375,
+            0.16666666666666666,
+            0.25546875,
+            0.8444444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.515625,
+            0.5152777777777777,
+            0.04296875,
+            0.12638888888888888
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.3640625,
+            0.15,
+            0.265625,
+            0.8611111111111112
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.49921875,
+            0.5305555555555556,
+            0.03828125,
+            0.16944444444444445
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.4359375,
+            0.019444444444444445,
+            0.20703125,
+            0.9902777777777778
+          ]
+        },
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 85.0,
+          "bbox": [
+            0.60546875,
+            0.05416666666666667,
+            0.05703125,
+            0.7041666666666667
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.3421875,
+            0.059722222222222225,
+            0.26875,
+            0.9513888888888888
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 85.0,
+          "bbox": [
+            0.5484375,
+            0.325,
+            0.1109375,
+            0.49722222222222223
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.05555555555555555,
+            0.30390625,
+            0.9555555555555556
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.38515625,
+            0.08333333333333333,
+            0.2765625,
+            0.9263888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.459375,
+            0.5069444444444444,
+            0.0515625,
+            0.24305555555555555
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.36328125,
+            0.05555555555555555,
+            0.29765625,
+            0.9555555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.46875,
+            0.5138888888888888,
+            0.0578125,
+            0.20833333333333334
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.43515625,
+            0.04722222222222222,
+            0.2265625,
+            0.9625
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.546875,
+            0.3597222222222222,
+            0.04140625,
+            0.13055555555555556
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3625,
+            0.10694444444444444,
+            0.26328125,
+            0.9041666666666667
+          ]
+        },
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 80.0,
+          "bbox": [
+            0.61875,
+            0.425,
+            0.04375,
+            0.5388888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 90.0,
+          "bbox": [
+            0.478125,
+            0.4527777777777778,
+            0.03125,
+            0.13055555555555556
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.3484375,
+            0.05,
+            0.3140625,
+            0.9611111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.49453125,
+            0.3736111111111111,
+            0.05234375,
+            0.08472222222222223
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3625,
+            0.0625,
+            0.3,
+            0.9486111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.51015625,
+            0.4652777777777778,
+            0.05234375,
+            0.12638888888888888
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.3921875,
+            0.11666666666666667,
+            0.26953125,
+            0.8944444444444445
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "dandelion",
+          "Confidence": 80.0,
+          "bbox": [
+            0.5015625,
+            0.48333333333333334,
+            0.0453125,
+            0.1
+          ],
+          "Parents": [
+            "plant",
+            "flower"
+          ]
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "child",
+          "age": 3,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.415625,
+            0.10972222222222222,
+            0.21328125,
+            0.9013888888888889
+          ]
+        },
+        {
+          "type": "child",
+          "age": 5,
+          "age_range": "2-6",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 85.0,
+          "bbox": [
+            0.3765625,
+            0.10972222222222222,
+            0.125,
+            0.5569444444444445
+          ]
+        }
+      ],
+      "detected_objects": [],
+      "frame": 14,
+      "timestamp": 14.0
+    }
+  ]
+}

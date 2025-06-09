@@ -1,0 +1,343 @@
+{
+  "video_name": "video_010.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "total_frames": 8,
+  "duration_seconds": 8.0,
+  "summary": {
+    "total_people_detections": 8,
+    "people_types": [
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 12.22,
+    "total_generated_tokens": 1271,
+    "frames_per_second": 0.65,
+    "tokens_per_second": 104.02
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.16,
+      "cpu_percent": 78.0,
+      "memory_mb": 1072.99
+    },
+    {
+      "timestamp_sec": 4.17,
+      "cpu_percent": 71.9,
+      "memory_mb": 1132.59
+    },
+    {
+      "timestamp_sec": 6.17,
+      "cpu_percent": 11.5,
+      "memory_mb": 1175.51
+    },
+    {
+      "timestamp_sec": 8.17,
+      "cpu_percent": 0.5,
+      "memory_mb": 1175.51
+    },
+    {
+      "timestamp_sec": 10.17,
+      "cpu_percent": 1.0,
+      "memory_mb": 1175.51
+    },
+    {
+      "timestamp_sec": 12.18,
+      "cpu_percent": 0.0,
+      "memory_mb": 1175.51
+    },
+    {
+      "timestamp_sec": 14.18,
+      "cpu_percent": 0.0,
+      "memory_mb": 1175.51
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "fear",
+          "confidence": 0.95,
+          "bbox": [
+            0.4796875,
+            0.1486111111111111,
+            0.15078125,
+            0.7458333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "baby",
+          "Confidence": 0.95,
+          "bbox": [
+            0.4796875,
+            0.1486111111111111,
+            0.15078125,
+            0.7458333333333333
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "toy",
+          "Confidence": 0.9,
+          "bbox": [
+            0.375,
+            0.47638888888888886,
+            0.25546875,
+            0.3680555555555556
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "fear",
+          "confidence": 0.95,
+          "bbox": [
+            0.4828125,
+            0.15,
+            0.14765625,
+            0.7444444444444445
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.9,
+          "bbox": [
+            0.4046875,
+            0.48333333333333334,
+            0.22578125,
+            0.33611111111111114
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "fear",
+          "confidence": 0.95,
+          "bbox": [
+            0.46875,
+            0.15,
+            0.16171875,
+            0.7486111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.98,
+          "bbox": [
+            0.38515625,
+            0.48333333333333334,
+            0.24609375,
+            0.33194444444444443
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "fear",
+          "confidence": 0.95,
+          "bbox": [
+            0.48828125,
+            0.15138888888888888,
+            0.1421875,
+            0.7541666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.9,
+          "bbox": [
+            0.390625,
+            0.4736111111111111,
+            0.23984375,
+            0.43194444444444446
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "fear",
+          "confidence": 0.95,
+          "bbox": [
+            0.46875,
+            0.15138888888888888,
+            0.16171875,
+            0.7555555555555555
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.9,
+          "bbox": [
+            0.38359375,
+            0.48194444444444445,
+            0.24765625,
+            0.3763888888888889
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "fear",
+          "confidence": 0.95,
+          "bbox": [
+            0.46171875,
+            0.15,
+            0.16875,
+            0.7569444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.9,
+          "bbox": [
+            0.38046875,
+            0.475,
+            0.25,
+            0.3486111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "fear",
+          "confidence": 0.95,
+          "bbox": [
+            0.4640625,
+            0.15138888888888888,
+            0.16640625,
+            0.7583333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 0.9,
+          "bbox": [
+            0.4,
+            0.48333333333333334,
+            0.20859375,
+            0.35138888888888886
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "fear",
+          "confidence": 0.95,
+          "bbox": [
+            0.48984375,
+            0.15555555555555556,
+            0.14140625,
+            0.7527777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "baby",
+          "Confidence": 0.95,
+          "bbox": [
+            0.48984375,
+            0.15555555555555556,
+            0.14140625,
+            0.7527777777777778
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "toy",
+          "Confidence": 0.8,
+          "bbox": [
+            0.40546875,
+            0.5,
+            0.18515625,
+            0.3347222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "video_name": "video_018.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "total_frames": 20,
+  "duration_seconds": 20.0,
+  "summary": {
+    "total_people_detections": 20,
+    "people_types": [
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 11.92,
+    "total_generated_tokens": 3123,
+    "frames_per_second": 1.68,
+    "tokens_per_second": 262.05
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.0,
+      "cpu_percent": 74.9,
+      "memory_mb": 1115.21
+    },
+    {
+      "timestamp_sec": 4.0,
+      "cpu_percent": 57.5,
+      "memory_mb": 1208.8
+    },
+    {
+      "timestamp_sec": 6.01,
+      "cpu_percent": 80.9,
+      "memory_mb": 1539.03
+    },
+    {
+      "timestamp_sec": 8.01,
+      "cpu_percent": 0.5,
+      "memory_mb": 1539.03
+    },
+    {
+      "timestamp_sec": 10.01,
+      "cpu_percent": 0.5,
+      "memory_mb": 1539.25
+    },
+    {
+      "timestamp_sec": 12.01,
+      "cpu_percent": 1.0,
+      "memory_mb": 1539.25
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.03888888888888889,
+            0.28203125,
+            0.6277777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed_animal",
+          "Confidence": 80.0,
+          "bbox": [
+            0.409375,
+            0.2972222222222222,
+            0.16484375,
+            0.2791666666666667
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3765625,
+            0.05277777777777778,
+            0.28671875,
+            0.8013888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed_animal",
+          "Confidence": 80.0,
+          "bbox": [
+            0.4796875,
+            0.3861111111111111,
+            0.18125,
+            0.2777777777777778
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.013888888888888888,
+            0.31796875,
+            0.8333333333333334
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "pig",
+          "Confidence": 80.0,
+          "bbox": [
+            0.4171875,
+            0.4527777777777778,
+            0.24453125,
+            0.3111111111111111
+          ],
+          "Parents": [
+            "animal",
+            "mammal"
+          ]
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.31875,
+            1.011111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "pig",
+          "Confidence": 80.0,
+          "bbox": [
+            0.44375,
+            0.44583333333333336,
+            0.21796875,
+            0.3125
+          ],
+          "Parents": [
+            "animal",
+            "mammal"
+          ]
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.013888888888888888,
+            0.31875,
+            0.9972222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "pig",
+          "Confidence": 80.0,
+          "bbox": [
+            0.4359375,
+            0.44305555555555554,
+            0.2265625,
+            0.29583333333333334
+          ],
+          "Parents": [
+            "animal",
+            "toy"
+          ]
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.03611111111111111,
+            0.31875,
+            0.7805555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed_animal",
+          "Confidence": 80.0,
+          "bbox": [
+            0.453125,
+            0.44166666666666665,
+            0.209375,
+            0.28055555555555556
+          ],
+          "Parents": [
+            "animal",
+            "toy"
+          ]
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.40625,
+            0.09166666666666666,
+            0.25546875,
+            0.6097222222222223
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed animal",
+          "Confidence": 80.0,
+          "bbox": [
+            0.5125,
+            0.4125,
+            0.14921875,
+            0.22916666666666666
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.3609375,
+            0.07777777777777778,
+            0.240625,
+            0.5263888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed animal",
+          "Confidence": 85.0,
+          "bbox": [
+            0.35703125,
+            0.3972222222222222,
+            0.2703125,
+            0.43194444444444446
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.058333333333333334,
+            0.28125,
+            0.6083333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed animal",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34375,
+            0.39444444444444443,
+            0.26953125,
+            0.40555555555555556
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34453125,
+            0.05,
+            0.24375,
+            0.5541666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed_animal",
+          "Confidence": 80.0,
+          "bbox": [
+            0.4234375,
+            0.3625,
+            0.1703125,
+            0.24861111111111112
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.05,
+            0.28203125,
+            0.8736111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed_animal",
+          "Confidence": 85.0,
+          "bbox": [
+            0.4234375,
+            0.3680555555555556,
+            0.165625,
+            0.24305555555555555
+          ],
+          "Parents": [
+            "animal",
+            "toy"
+          ]
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.05277777777777778,
+            0.31875,
+            0.8888888888888888
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed_animal",
+          "Confidence": 80.0,
+          "bbox": [
+            0.4625,
+            0.39444444444444443,
+            0.15,
+            0.25833333333333336
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.05555555555555555,
+            0.24296875,
+            0.8777777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed animal",
+          "Confidence": 85.0,
+          "bbox": [
+            0.446875,
+            0.3875,
+            0.1859375,
+            0.2125
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.07083333333333333,
+            0.31875,
+            0.9402777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed animal",
+          "Confidence": 80.0,
+          "bbox": [
+            0.440625,
+            0.38055555555555554,
+            0.18671875,
+            0.22083333333333333
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.0763888888888889,
+            0.2578125,
+            0.5166666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed animal",
+          "Confidence": 85.0,
+          "bbox": [
+            0.434375,
+            0.36666666666666664,
+            0.18125,
+            0.23472222222222222
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 14,
+      "timestamp": 14.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.08333333333333333,
+            0.28125,
+            0.75
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed animal",
+          "Confidence": 85.0,
+          "bbox": [
+            0.44140625,
+            0.375,
+            0.18125,
+            0.18611111111111112
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 15,
+      "timestamp": 15.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.07777777777777778,
+            0.23671875,
+            0.8416666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "toy",
+          "Confidence": 80.0,
+          "bbox": [
+            0.4109375,
+            0.39444444444444443,
+            0.19375,
+            0.29444444444444445
+          ],
+          "Parents": [
+            "object",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 16,
+      "timestamp": 16.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34375,
+            0.09444444444444444,
+            0.31796875,
+            0.9166666666666666
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "stuffed animal",
+          "Confidence": 80.0,
+          "bbox": [
+            0.4359375,
+            0.3972222222222222,
+            0.16640625,
+            0.17916666666666667
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 17,
+      "timestamp": 17.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.09444444444444444,
+            0.31953125,
+            0.875
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "teddy_bear",
+          "Confidence": 80.0,
+          "bbox": [
+            0.44140625,
+            0.39305555555555555,
+            0.16015625,
+            0.19305555555555556
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 18,
+      "timestamp": 18.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.08611111111111111,
+            0.31953125,
+            0.8472222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "teddy_bear",
+          "Confidence": 80.0,
+          "bbox": [
+            0.43046875,
+            0.3875,
+            0.175,
+            0.20972222222222223
+          ],
+          "Parents": [
+            "toy",
+            "animal"
+          ]
+        }
+      ],
+      "frame": 19,
+      "timestamp": 19.0
+    }
+  ]
+}

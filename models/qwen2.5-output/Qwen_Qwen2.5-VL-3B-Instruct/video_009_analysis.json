@@ -1,0 +1,733 @@
+{
+  "video_name": "video_009.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "total_frames": 20,
+  "duration_seconds": 20.0,
+  "summary": {
+    "total_people_detections": 20,
+    "people_types": [
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 15.16,
+    "total_generated_tokens": 2937,
+    "frames_per_second": 1.32,
+    "tokens_per_second": 193.77
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.08,
+      "cpu_percent": 74.9,
+      "memory_mb": 1114.87
+    },
+    {
+      "timestamp_sec": 4.08,
+      "cpu_percent": 65.4,
+      "memory_mb": 1246.83
+    },
+    {
+      "timestamp_sec": 6.08,
+      "cpu_percent": 78.4,
+      "memory_mb": 1534.74
+    },
+    {
+      "timestamp_sec": 8.08,
+      "cpu_percent": 0.0,
+      "memory_mb": 1534.74
+    },
+    {
+      "timestamp_sec": 10.09,
+      "cpu_percent": 0.5,
+      "memory_mb": 1534.74
+    },
+    {
+      "timestamp_sec": 12.09,
+      "cpu_percent": 1.0,
+      "memory_mb": 1534.74
+    },
+    {
+      "timestamp_sec": 14.09,
+      "cpu_percent": 0.5,
+      "memory_mb": 1534.74
+    },
+    {
+      "timestamp_sec": 16.09,
+      "cpu_percent": 0.5,
+      "memory_mb": 1534.74
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34140625,
+            0.1388888888888889,
+            0.18984375,
+            0.6305555555555555
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "play mat",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34140625,
+            0.5527777777777778,
+            0.32109375,
+            0.4583333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3453125,
+            0.12222222222222222,
+            0.23203125,
+            0.6916666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.3453125,
+            0.575,
+            0.3171875,
+            0.4361111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.08333333333333333,
+            0.246875,
+            0.6277777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.5527777777777778,
+            0.31875,
+            0.4583333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34765625,
+            0.10138888888888889,
+            0.25234375,
+            0.5888888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "hand",
+          "Confidence": 0.9,
+          "bbox": [
+            0.3453125,
+            0.5833333333333334,
+            0.27578125,
+            0.3333333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3625,
+            0.09027777777777778,
+            0.2390625,
+            0.6319444444444444
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.5,
+            0.31875,
+            0.5097222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34921875,
+            0.08611111111111111,
+            0.2546875,
+            0.6222222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.6083333333333333,
+            0.31875,
+            0.4027777777777778
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34921875,
+            0.05277777777777778,
+            0.26015625,
+            0.6333333333333333
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34609375,
+            0.5166666666666667,
+            0.31640625,
+            0.4930555555555556
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3625,
+            0.05277777777777778,
+            0.2625,
+            0.625
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.3453125,
+            0.49722222222222223,
+            0.31796875,
+            0.5125
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.35625,
+            0.05416666666666667,
+            0.275,
+            0.6402777777777777
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "table",
+          "Confidence": 0.9,
+          "bbox": [
+            0.3453125,
+            0.5138888888888888,
+            0.3171875,
+            0.49722222222222223
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.04861111111111111,
+            0.31875,
+            0.8333333333333334
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "table",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.5166666666666667,
+            0.31875,
+            0.49444444444444446
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.35859375,
+            0.03888888888888889,
+            0.2703125,
+            0.6347222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.4444444444444444,
+            0.31875,
+            0.5652777777777778
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.35625,
+            0.041666666666666664,
+            0.27890625,
+            0.6277777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "floor",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.5111111111111111,
+            0.31875,
+            0.5
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "female",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.39765625,
+            0.03888888888888889,
+            0.25078125,
+            0.5611111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "hand",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34765625,
+            0.3194444444444444,
+            0.30078125,
+            0.4027777777777778
+          ],
+          "Parents": []
+        },
+        {
+          "Name": "book",
+          "Confidence": 0.8,
+          "bbox": [
+            0.34375,
+            0.5138888888888888,
+            0.31875,
+            0.49583333333333335
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.4296875,
+            0.08055555555555556,
+            0.23125,
+            0.6361111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34453125,
+            0.4444444444444444,
+            0.31796875,
+            0.5652777777777778
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 13,
+      "timestamp": 13.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.4296875,
+            0.10277777777777777,
+            0.23203125,
+            0.525
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.98,
+          "bbox": [
+            0.34375,
+            0.5277777777777778,
+            0.31875,
+            0.48194444444444445
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 14,
+      "timestamp": 14.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.4125,
+            0.10694444444444444,
+            0.24921875,
+            0.5111111111111111
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "star",
+          "Confidence": 0.9,
+          "bbox": [
+            0.38671875,
+            0.7986111111111112,
+            0.1796875,
+            0.2111111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 15,
+      "timestamp": 15.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.37421875,
+            0.10555555555555556,
+            0.2875,
+            0.5166666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34609375,
+            0.5,
+            0.31640625,
+            0.5097222222222222
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 16,
+      "timestamp": 16.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.37265625,
+            0.10277777777777777,
+            0.28828125,
+            0.5138888888888888
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.3453125,
+            0.49166666666666664,
+            0.3171875,
+            0.5180555555555556
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 17,
+      "timestamp": 17.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "male",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.34375,
+            0.09444444444444444,
+            0.31796875,
+            0.5208333333333334
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.34375,
+            0.47638888888888886,
+            0.31796875,
+            0.5333333333333333
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 18,
+      "timestamp": 18.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 0,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 0.95,
+          "bbox": [
+            0.3703125,
+            0.09722222222222222,
+            0.28671875,
+            0.5277777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "book",
+          "Confidence": 0.9,
+          "bbox": [
+            0.3453125,
+            0.4861111111111111,
+            0.31796875,
+            0.5236111111111111
+          ],
+          "Parents": []
+        }
+      ],
+      "frame": 19,
+      "timestamp": 19.0
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "video_name": "video_034.mp4",
+  "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "total_frames": 13,
+  "duration_seconds": 13.0,
+  "summary": {
+    "total_people_detections": 13,
+    "people_types": [
+      "baby"
+    ]
+  },
+  "performance_metrics": {
+    "inference_duration_seconds": 14.25,
+    "total_generated_tokens": 3084,
+    "frames_per_second": 0.91,
+    "tokens_per_second": 216.45
+  },
+  "resource_usage_timeline": [
+    {
+      "timestamp_sec": 2.43,
+      "cpu_percent": 71.8,
+      "memory_mb": 1091.26
+    },
+    {
+      "timestamp_sec": 4.43,
+      "cpu_percent": 68.9,
+      "memory_mb": 1158.45
+    },
+    {
+      "timestamp_sec": 6.43,
+      "cpu_percent": 41.4,
+      "memory_mb": 1330.15
+    },
+    {
+      "timestamp_sec": 8.44,
+      "cpu_percent": 0.5,
+      "memory_mb": 1330.15
+    },
+    {
+      "timestamp_sec": 10.44,
+      "cpu_percent": 0.5,
+      "memory_mb": 1330.15
+    },
+    {
+      "timestamp_sec": 12.44,
+      "cpu_percent": 1.0,
+      "memory_mb": 1330.15
+    },
+    {
+      "timestamp_sec": 14.44,
+      "cpu_percent": 0.5,
+      "memory_mb": 1330.15
+    }
+  ],
+  "frames": [
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.425,
+            0.31666666666666665,
+            0.11640625,
+            0.3902777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34296875,
+            0.39444444444444443,
+            0.31875,
+            0.6166666666666667
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.49140625,
+            0.4777777777777778,
+            0.1703125,
+            0.5333333333333333
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        }
+      ],
+      "frame": 0,
+      "timestamp": 0.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.41953125,
+            0.35555555555555557,
+            0.1296875,
+            0.41944444444444445
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34375,
+            0.4236111111111111,
+            0.31796875,
+            0.5875
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.49375,
+            0.5333333333333333,
+            0.16796875,
+            0.4777777777777778
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        }
+      ],
+      "frame": 1,
+      "timestamp": 1.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.3984375,
+            0.2388888888888889,
+            0.1875,
+            0.4222222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34375,
+            0.3388888888888889,
+            0.3171875,
+            0.6722222222222223
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34375,
+            0.3388888888888889,
+            0.3171875,
+            0.6722222222222223
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        },
+        {
+          "Name": "pillow",
+          "Confidence": 60.0,
+          "bbox": [
+            0.34375,
+            0.03333333333333333,
+            0.1703125,
+            0.4013888888888889
+          ],
+          "Parents": [
+            "furniture",
+            "pillow"
+          ]
+        }
+      ],
+      "frame": 2,
+      "timestamp": 2.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.47421875,
+            0.25277777777777777,
+            0.1203125,
+            0.4013888888888889
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34296875,
+            0.35833333333333334,
+            0.31796875,
+            0.6916666666666667
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "pillow",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34296875,
+            0.16944444444444445,
+            0.2515625,
+            0.3
+          ],
+          "Parents": [
+            "furniture",
+            "pillow"
+          ]
+        }
+      ],
+      "frame": 3,
+      "timestamp": 3.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.44765625,
+            0.26666666666666666,
+            0.12265625,
+            0.4125
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34375,
+            0.36527777777777776,
+            0.3171875,
+            0.6847222222222222
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.515625,
+            0.41944444444444445,
+            0.1453125,
+            0.43333333333333335
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        },
+        {
+          "Name": "pillow",
+          "Confidence": 60.0,
+          "bbox": [
+            0.34375,
+            0.175,
+            0.22265625,
+            0.325
+          ],
+          "Parents": [
+            "furniture",
+            "pillow"
+          ]
+        }
+      ],
+      "frame": 4,
+      "timestamp": 4.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.44296875,
+            0.25416666666666665,
+            0.115625,
+            0.4041666666666667
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34296875,
+            0.35,
+            0.31875,
+            0.7
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.5078125,
+            0.39444444444444443,
+            0.15390625,
+            0.4486111111111111
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        },
+        {
+          "Name": "pillow",
+          "Confidence": 60.0,
+          "bbox": [
+            0.34296875,
+            0.15555555555555556,
+            0.21484375,
+            0.3263888888888889
+          ],
+          "Parents": [
+            "furniture",
+            "pillow"
+          ]
+        }
+      ],
+      "frame": 5,
+      "timestamp": 5.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.4390625,
+            0.23194444444444445,
+            0.11875,
+            0.4097222222222222
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34375,
+            0.33055555555555555,
+            0.3171875,
+            0.6805555555555556
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.50625,
+            0.38472222222222224,
+            0.1546875,
+            0.4527777777777778
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        },
+        {
+          "Name": "pillow",
+          "Confidence": 60.0,
+          "bbox": [
+            0.34375,
+            0.1361111111111111,
+            0.21796875,
+            0.3277777777777778
+          ],
+          "Parents": [
+            "furniture",
+            "pillow"
+          ]
+        }
+      ],
+      "frame": 6,
+      "timestamp": 6.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "neutral",
+          "confidence": 95.0,
+          "bbox": [
+            0.42109375,
+            0.2722222222222222,
+            0.1359375,
+            0.32916666666666666
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34375,
+            0.3277777777777778,
+            0.31796875,
+            0.6833333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.515625,
+            0.3819444444444444,
+            0.14609375,
+            0.45555555555555555
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        },
+        {
+          "Name": "pillow",
+          "Confidence": 60.0,
+          "bbox": [
+            0.34375,
+            0.14166666666666666,
+            0.22265625,
+            0.3736111111111111
+          ],
+          "Parents": [
+            "furniture",
+            "pillow"
+          ]
+        }
+      ],
+      "frame": 7,
+      "timestamp": 7.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.415625,
+            0.1986111111111111,
+            0.140625,
+            0.5180555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 85.0,
+          "bbox": [
+            0.34375,
+            0.3111111111111111,
+            0.3171875,
+            0.7
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "pillow",
+          "Confidence": 70.0,
+          "bbox": [
+            0.34375,
+            0.09027777777777778,
+            0.19375,
+            0.4375
+          ],
+          "Parents": [
+            "furniture",
+            "pillow"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 60.0,
+          "bbox": [
+            0.5140625,
+            0.35,
+            0.146875,
+            0.4666666666666667
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        }
+      ],
+      "frame": 8,
+      "timestamp": 8.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.3515625,
+            0.1527777777777778,
+            0.221875,
+            0.775
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34375,
+            0.09027777777777778,
+            0.31796875,
+            0.9208333333333333
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.559375,
+            0.55,
+            0.10234375,
+            0.46111111111111114
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        }
+      ],
+      "frame": 9,
+      "timestamp": 9.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.0,
+            0.24765625,
+            0.9055555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.275,
+            0.31796875,
+            0.7361111111111112
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        }
+      ],
+      "frame": 10,
+      "timestamp": 10.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.34296875,
+            0.058333333333333334,
+            0.29765625,
+            0.9402777777777778
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "bed",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.32222222222222224,
+            0.31875,
+            0.6888888888888889
+          ],
+          "Parents": [
+            "furniture",
+            "bed"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.553125,
+            0.49722222222222223,
+            0.10859375,
+            0.5013888888888889
+          ],
+          "Parents": [
+            "textile",
+            "blanket"
+          ]
+        }
+      ],
+      "frame": 11,
+      "timestamp": 11.0
+    },
+    {
+      "people": [
+        {
+          "type": "baby",
+          "age": 1,
+          "age_range": "0-2",
+          "gender": "unknown",
+          "emotion": "happy",
+          "confidence": 95.0,
+          "bbox": [
+            0.36953125,
+            0.1388888888888889,
+            0.24453125,
+            0.7805555555555556
+          ]
+        }
+      ],
+      "detected_objects": [
+        {
+          "Name": "chair",
+          "Confidence": 80.0,
+          "bbox": [
+            0.34296875,
+            0.1388888888888889,
+            0.15546875,
+            0.85
+          ],
+          "Parents": [
+            "furniture",
+            "seating"
+          ]
+        },
+        {
+          "Name": "blanket",
+          "Confidence": 70.0,
+          "bbox": [
+            0.5375,
+            0.37777777777777777,
+            0.1234375,
+            0.5597222222222222
+          ],
+          "Parents": [
+            "textile",
+            "bedding"
+          ]
+        }
+      ],
+      "frame": 12,
+      "timestamp": 12.0
+    }
+  ]
+}
